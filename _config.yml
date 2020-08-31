@@ -5,7 +5,7 @@ description: >
   Programming 03 Webpage
 lang: en-US
 
-baseurl: "/" # the subpath of your site, e.g. /blog/
+baseurl: "/_site/" # the subpath of your site, e.g. /blog/
 url: https://ysjprog03.netlify.app # the base hostname & protocol for your site
 git_address: https://github.com/andyguestysj/prog03
 git_edit_address: https://github.com/andyguestysj/prog03
