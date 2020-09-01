@@ -1,10 +1,18 @@
-- title: Programming 03
+- title: Introduction
   docs:
   - home
-  - themes
+  - admin
+  - setup
   - customization
 
-- title: Examples
+- title: Assessment
+  docs:
+  - overview
+  - brief
+  - submission
+  - feedback
+
+- title: Topics
   docs:
   - cheatsheet
   - font-awesome
