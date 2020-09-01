@@ -1,11 +1,12 @@
 ---
 title: Setup
 permalink: /docs/setup/
-redirect_from: /docs/setup.html
 ---
 
 ## Setup
 
+
+do i ndee tesxtr
 ## Moodle
 
 ## Microsoft Teams
