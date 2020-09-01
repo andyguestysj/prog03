@@ -29,3 +29,7 @@ I'll give you a quick overview of the basics, the stuff that is similar to Java,
 ### Assembly Language
 
 Assembly Language **is** a very different language. It is acting at a very low level and will not look anything like Java (or even C). We will not be spending a lot of time on Assembly, maybe a little less than a third of our time. We will write some Assembly code in class but you will not be asked to write any for the assessment. You will be given some assembly code and asked to analyse it, describe how it works, and compare it to some C code.
+
+### Programming
+
+Please remember, programming is a **knowledge** and a **skill**. I can provide you with information in the form of lectures, tutorials and point you at books to help you learn the **knowledge** but the **skill** comes from practice. The **skill** only comes from writing code.
