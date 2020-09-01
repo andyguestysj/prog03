@@ -7,7 +7,7 @@ permalink: /docs/admin/
 
 ## Contact Details
 Dr Andy Guest
-[contact me] (mailto:a.guest@yorksj.ac.uk)
+[contact me](mailto:a.guest@yorksj.ac.uk)
 (01904) (62)6524
 
 ## Dates
