@@ -1,6 +1,6 @@
 ---
 title: Submission
-permalink: /docs/assessment/
+permalink: /docs/submission/
 ---
 
 nblah

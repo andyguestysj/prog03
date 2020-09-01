@@ -1,6 +1,6 @@
 ---
 title: Brief
-permalink: /docs/assessment/
+permalink: /docs/brief/
 ---
 
 nblah

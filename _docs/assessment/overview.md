@@ -1,6 +1,6 @@
 ---
 title: Overview
-permalink: /docs/assessment/
+permalink: /docs/overview/
 ---
 
 nblah

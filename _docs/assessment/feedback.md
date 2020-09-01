@@ -1,6 +1,6 @@
 ---
 title: Feedback
-permalink: /docs/assessment/
+permalink: /docs/feedback/
 ---
 
 nblah
