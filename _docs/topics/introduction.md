@@ -71,7 +71,8 @@ The stack is used to store data as code is executed. Every time a method is call
 The frame for a method call stores the parameters passed in a method call and all the local variables used within that module. When the method finishes running the associated frame is deleted from the stack.
 
 #### A Simple Java Application
-
+Code | Stack
+--- | ---
 |
 '''java  
 public static void main(String[] args)  
