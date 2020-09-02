@@ -39,6 +39,11 @@ The bar on the left-hand side shows the files that are in the project.
 ![alt text](/assets/img/replit-files.png "repl.it flies list")
 You can add new files (and folders) by clicking on the buttons next to "Files".   
 
-On the side are three symbols.
-<i class="fa fa-code-fork" aria-hidden="true"></i> Version Control
+On the side are three symbols.  
+<i class="fa fa-file-o" aria-hidden="true"></i> **Files** shows you the files in your project  
+<i class="fa fa-code-fork" aria-hidden="true"></i> **Version Control** takes you to your repository options
+<i class="fa fa-cog" aria-hidden="true"></i> **Settings** shows project settings    
+
+
+
 
