@@ -36,13 +36,22 @@ Your repl.it project should look like this when first set up.
 ### repl.it Layout
 
 The bar on the left-hand side shows the files that are in the project.  
-![alt text](/assets/img/replit-files.png "repl.it flies list")
+![alt text](/assets/img/replit-files.png "repl.it files list")
 You can add new files (and folders) by clicking on the buttons next to "Files".   
 
 On the side are three symbols.  
 <i class="fa fa-file-o" aria-hidden="true"></i> **Files** shows you the files in your project  
-<i class="fa fa-code-fork" aria-hidden="true"></i> **Version Control** takes you to your repository options
+<i class="fa fa-code-fork" aria-hidden="true"></i> **Version Control** takes you to your repository options  
 <i class="fa fa-cog" aria-hidden="true"></i> **Settings** shows project settings    
+
+The centre section shows the content of the files in the project. This is your coding window.  
+![alt text](/assets/img/replit-code.png "repl.it code window")  
+
+The "Run" button in the middle of the top bar will compile and execute your project.  
+![alt text](/assets/img/replit-run.png "repl.it run button")  
+
+The right hand section shows the output of your. This includes the compile output. You can also enter commands here.  
+![alt text](/assets/img/replit-output.png "repl.it output window")  
 
 
 
