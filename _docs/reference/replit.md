@@ -7,6 +7,7 @@ permalink: /docs/replit/
 
 1. [General](#general)  
 2. [Creating A New Project](#newproj)
+3. [Coding In repl.it](#replitcoding)
 
 ## <a name="general"></a>repl.it
 
@@ -26,5 +27,8 @@ You can sign up for a repl.it account for free at [https://repl.it/](https://rep
 5. Click create repl
 6. You should be taken to your new project.
 
+## <a name="replitcoding"></a>Coding In repl.it
 
+Your repl.it project should look like this when first set up.  
 
+![alt text](/assets/img/replit.png "repl.it screen layout")
