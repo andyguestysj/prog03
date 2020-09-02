@@ -32,3 +32,13 @@ You can sign up for a repl.it account for free at [https://repl.it/](https://rep
 Your repl.it project should look like this when first set up.  
 
 ![alt text](/assets/img/replit.png "repl.it screen layout")
+
+### repl.it Layout
+
+The bar on the left-hand side shows the files that are in the project.  
+![alt text](/assets/img/replit-files.png "repl.it flies list")
+You can add new files (and folders) by clicking on the buttons next to "Files".   
+
+On the side are three symbols.
+<i class="fa fa-code-fork" aria-hidden="true"></i> Version Control
+
