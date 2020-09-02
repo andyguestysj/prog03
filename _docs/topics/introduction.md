@@ -74,15 +74,14 @@ The frame for a method call stores the parameters passed in a method call and al
 
 <div class="row">
     <div class="col-md-6">
-{{ '''java  
-public static void main(String[] args)  
+            <pre><code class="language-java">public static void main(String[] args)  
 {  
   int i=1;  
-}  
-''' }}
+}
+</code></pre>
     </div>
     <div class="col-md-6">
-{{ ![alt text](/assets/img/simple-java-stack-1.png "simple java stack") }} 
+<img src="/assets/img/simple-java-stack-1.png" alt="simple java stack">
 
     </div>
 </div>
