@@ -14,9 +14,9 @@ permalink: /docs/introduction/
 
 1. Memory
   * How memory is used
-    * The Stack, Frames, The Heap
-    * Primitive Variables Vs Objects
-    * Memory at a very low level
+  * The Stack, Frames, The Heap
+  * Primitive Variables Vs Objects
+  * Memory at a very low level
 
 2. Java Memory Usaga
 
