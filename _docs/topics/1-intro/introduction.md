@@ -7,8 +7,8 @@ permalink: /docs/introduction/
 
 1. [Module Outline](#outline)  
 2. [Assessment](#assessment)  
-3. [Memory](memory)  
-4. [Java Memory Usage](#javamem)  
+3. [Memory](#memory)  
+4. Java Memory Usage
 
 ## <a name="outline"></a>Module Outline  
 
