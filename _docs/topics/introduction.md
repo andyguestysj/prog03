@@ -91,6 +91,29 @@ The frame for a method call stores the parameters passed in a method call and al
     </div>
 </div>
 
+<div class="row">
+    <div class="col-md-6">
+            <pre><code class="language-java">public static void main(String[] args)  
+{  
+  int i=1;  
+}
+</code></pre>
+<ul>
+<li>All data is stored in binary</li>
+<li>(shown here as one byte)</li>
+<li>(actual amount varies by chip)</li>
+</ul>
+    </div>
+    <div class="col-md-6">
+<img src="/assets/img/simple-java-stack-2-binary.png" alt="simple java stack">
+
+    </div>
+</div>
+
+
+
+
+
 
 
 ## <a name="javamem"></a>Java Memory Usage
