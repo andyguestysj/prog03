@@ -132,7 +132,7 @@ The frame for a method call stores the parameters passed in a method call and al
     </div>
 </div>
 
-### [Methods & Frames](intro-silly.html)
+### [Methods & Frames](/intro-silly.html)
 
 
 
