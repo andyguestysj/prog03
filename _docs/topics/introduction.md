@@ -71,7 +71,6 @@ The stack is used to store data as code is executed. Every time a method is call
 The frame for a method call stores the parameters passed in a method call and all the local variables used within that module. When the method finishes running the associated frame is deleted from the stack.
 
 #### A Simple Java Application
-
 <div class="row">
     <div class="col-md-6">
             <pre><code class="language-java">public static void main(String[] args)  
@@ -91,6 +90,7 @@ The frame for a method call stores the parameters passed in a method call and al
     </div>
 </div>
 
+#### Data is binary
 <div class="row">
     <div class="col-md-6">
             <pre><code class="language-java">public static void main(String[] args)  
@@ -106,6 +106,26 @@ The frame for a method call stores the parameters passed in a method call and al
     </div>
     <div class="col-md-6">
 <img src="/assets/img/simple-java-stack-2-binary.png" alt="simple java stack">
+
+    </div>
+</div>
+
+#### Data stored smallest part first
+<div class="row">
+    <div class="col-md-6">
+            <pre><code class="language-java">public static void main(String[] args)  
+{  
+  int i=1;  
+}
+</code></pre>
+<ul>
+<li>All data is stored in binary</li>
+<li>Is is stored as least significant "part" first</li>
+<li>(again, part size varies by chip)</li>
+</ul>
+    </div>
+    <div class="col-md-6">
+<img src="/assets/img/simple-java-stack-2-binary2.png" alt="simple java stack">
 
     </div>
 </div>
