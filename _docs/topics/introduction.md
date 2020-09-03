@@ -122,6 +122,8 @@ The frame for a method call stores the parameters passed in a method call and al
 <li>All data is stored in binary</li>
 <li>Is is stored as least significant "part" first</li>
 <li>(again, part size varies by chip)</li>
+<li>We'll typically just show the numbers in decimal</li>
+<li>We typically only need to deal with binary in Assembly</li>
 </ul>
     </div>
     <div class="col-md-6">
@@ -130,7 +132,7 @@ The frame for a method call stores the parameters passed in a method call and al
     </div>
 </div>
 
-
+### [Methods & Frames](intro-silly.html)
 
 
 
