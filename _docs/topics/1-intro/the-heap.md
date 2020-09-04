@@ -42,7 +42,7 @@ main();
 </ul>
     </div>
     <div class="col-md-6">
-<img src="/assets/img/heap-intro-1" alt="java heap example">
+<img src="/assets/img/heap1-1" alt="java heap example">
 
     </div>
 </div>
@@ -61,7 +61,7 @@ public main()
 </ul>
     </div>
     <div class="col-md-6">
-<img src="/assets/img/heap-intro-2" alt="java heap example">
+<img src="/assets/img/heap1-2" alt="java heap example">
 
     </div>
 </div>
@@ -83,7 +83,7 @@ public main()
 </ul>
     </div>
     <div class="col-md-6">
-<img src="/assets/img/heap-intro-3" alt="java heap example">
+<img src="/assets/img/heap1-3" alt="java heap example">
 
     </div>
 </div>
@@ -114,7 +114,7 @@ public main()
 </ul>
     </div>
     <div class="col-md-6">
-<img src="/assets/img/heap-intro-4" alt="java heap example">
+<img src="/assets/img/heap1-4" alt="java heap example">
 
     </div>
 </div>
@@ -136,7 +136,7 @@ public main()
 </ul>
     </div>
     <div class="col-md-6">
-<img src="/assets/img/heap-intro-5" alt="java heap example">
+<img src="/assets/img/heap1-5" alt="java heap example">
 
     </div>
 </div>
@@ -163,7 +163,7 @@ public test(int a, simple b)
 </ul>
     </div>
     <div class="col-md-6">
-<img src="/assets/img/heap-intro-6" alt="java heap example">
+<img src="/assets/img/heap1-6" alt="java heap example">
 
     </div>
 </div>
@@ -192,7 +192,7 @@ public test(int a, simple b)
 </ul>
     </div>
     <div class="col-md-6">
-<img src="/assets/img/heap-intro-7" alt="java heap example">
+<img src="/assets/img/heap1-7" alt="java heap example">
 
     </div>
 </div>
@@ -220,7 +220,7 @@ public test(int a, simple b)
 </ul>
     </div>
     <div class="col-md-6">
-<img src="/assets/img/heap-intro-8" alt="java heap example">
+<img src="/assets/img/heap1-8" alt="java heap example">
 
     </div>
 </div>
@@ -248,7 +248,7 @@ public test(int a, simple b)
 </ul>
     </div>
     <div class="col-md-6">
-<img src="/assets/img/heap-intro-9" alt="java heap example">
+<img src="/assets/img/heap1-9" alt="java heap example">
 
     </div>
 </div>
@@ -276,7 +276,7 @@ public test(int a, simple b)
 </ul>
     </div>
     <div class="col-md-6">
-<img src="/assets/img/heap-intro-10" alt="java heap example">
+<img src="/assets/img/heap1-10" alt="java heap example">
 
     </div>
 </div>
@@ -308,7 +308,7 @@ public test(int a, simple b)
 </ul>
     </div>
     <div class="col-md-6">
-<img src="/assets/img/heap-intro-10" alt="java heap example">
+<img src="/assets/img/heap1-10" alt="java heap example">
 
     </div>
 </div>
@@ -337,7 +337,7 @@ public test(int a, simple b)
 </ul>
     </div>
     <div class="col-md-6">
-<img src="/assets/img/heap-intro-11" alt="java heap example">
+<img src="/assets/img/heap1-11" alt="java heap example">
 
     </div>
 </div>
@@ -367,7 +367,7 @@ public test(int a, simple b)
 </ul>
     </div>
     <div class="col-md-6">
-<img src="/assets/img/heap-intro-10" alt="java heap example">
+<img src="/assets/img/heap1-10" alt="java heap example">
 
     </div>
 </div>
@@ -397,7 +397,7 @@ public test(int a, simple b)
 </ul>
     </div>
     <div class="col-md-6">
-<img src="/assets/img/heap-intro-12" alt="java heap example">
+<img src="/assets/img/heap1-12" alt="java heap example">
 
     </div>
 </div>
@@ -428,7 +428,7 @@ public test(int a, simple b)
 </ul>
     </div>
     <div class="col-md-6">
-<img src="/assets/img/heap-intro-13" alt="java heap example">
+<img src="/assets/img/heap1-13" alt="java heap example">
 
     </div>
 </div>
@@ -518,7 +518,7 @@ public main()
 </code></pre>
     </div>
     <div class="col-md-6">
-<img src="/assets/img/heap-intro-14" alt="java heap example">
+<img src="/assets/img/heap1-14" alt="java heap example">
 
     </div>
 </div>
@@ -541,7 +541,7 @@ public main()
 </ul>
     </div>
     <div class="col-md-6">
-<img src="/assets/img/heap-intro-15" alt="java heap example">
+<img src="/assets/img/heap1-15" alt="java heap example">
 
     </div>
 </div>
@@ -565,7 +565,7 @@ public main()
 </ul>
     </div>
     <div class="col-md-6">
-<img src="/assets/img/heap-intro-16" alt="java heap example">
+<img src="/assets/img/heap1-16" alt="java heap example">
 
     </div>
 </div>
@@ -588,7 +588,7 @@ public main()
 </ul>
     </div>
     <div class="col-md-6">
-<img src="/assets/img/heap-intro-17" alt="java heap example">
+<img src="/assets/img/heap1-17" alt="java heap example">
 
     </div>
 </div>
@@ -615,7 +615,7 @@ public main()
 </ul>
     </div>
     <div class="col-md-6">
-<img src="/assets/img/heap-intro-17" alt="java heap example">
+<img src="/assets/img/heap1-17" alt="java heap example">
 
     </div>
 </div>
