@@ -23,6 +23,7 @@
 - title: 1. Introduction
   docs:
   - introduction
+  - memory
   - the-stack
   - intro-silly
   - stack-timelapse
