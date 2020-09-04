@@ -3,12 +3,13 @@ title: Recursion
 permalink: /docs/recursion/
 ---
 
-Recursion is a programming technique that involves a method calling itself. This is possible because of the way frames and the stack work. Here is how.
+Recursion is a programming technique that involves a method calling itself. Recursion is possible because of the way frames and the stack work. Here is how.
 
 #### Recursive exponential calculation
 <div class="row">
     <div class="col-md-6">
-            <pre><code class="language-java">int exp(int i) 
+            <pre><code class="language-java">
+int exp(int i) 
 {
   if (i==1)
     return 1;

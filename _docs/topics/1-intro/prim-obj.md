@@ -34,22 +34,26 @@ Primitives and objects are stored in different locations in memory. Most of the 
 
 When we pass a primitive type to a method a local version of that primitive is created in the method (in the method's frame) and the value of the primitive is copied in to the local version. In the code below the value in the primitive `number` is passed in to `increaseNumber` where it is stored in a new local variable called `input`. When `input` is incremented (`input++`) the value of `number` does not change. This is because the two primitives are stored in two seperate frames and there is no connection between the two.
 
-```int number = 1;
+```java
+int number = 1;
 increaseNumber(number);
 
 public int increaseNumber(int input)
 {
     input++;
     return input;
-}```  
+}
+```  
 
 If we want to change the value in `number` then we have to return the value from the method.  
 
-```int number = 1;
+```java
+int number = 1;
 *number=increaseNumber(number);*
 
 public int increaseNumber(int input)
 {
     input++;
     return input;
-}```
+}
+```
