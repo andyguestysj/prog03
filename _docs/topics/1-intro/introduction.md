@@ -1,5 +1,5 @@
 ---
-title: Introduction
+title: 0. Introduction
 permalink: /docs/introduction/
 ---
 
@@ -31,5 +31,5 @@ Portfolio
 * Submitted at the end of the module  
 * Consisting of  
   * C Code Assignment  
-  
+
 For full details see the Assessment section of the side bar.  

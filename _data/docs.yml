@@ -19,10 +19,11 @@
   - feedback
 
 - title: Topics
-
-- title: 1. Introduction
   docs:
   - introduction
+
+- title: 1. Memory
+  docs:
   - memory
   - the-stack
   - intro-silly
