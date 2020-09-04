@@ -3,6 +3,10 @@ title: Recursion
 permalink: /docs/recursion/
 ---
 
+<link rel="stylesheet"
+      href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.2/build/styles/default.min.css">
+<script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.2/build/highlight.min.js"></script>
+
 Recursion is a programming technique that involves a method calling itself. Recursion is possible because of the way frames and the stack work. Here is how.
 
 #### Recursive exponential calculation
