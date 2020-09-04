@@ -32,6 +32,7 @@ The purpose of wrapper classes is to allow primitives to be treated as objects, 
 
 Primitives and objects are stored in different locations in memory. Most of the time we will only notice the difference between the two when we pass them to methods as parameters.  
 
+#### Primitives  
 When we pass a primitive type to a method a local version of that primitive is created in the method (in the method's frame) and the value of the primitive is copied in to the local version. In the code below the value in the primitive `number` is passed in to `increaseNumber` where it is stored in a new local variable called `input`. When `input` is incremented (`input++`) the value of `number` does not change. This is because the two primitives are stored in two seperate frames and there is no connection between the two.
 
 ```java
@@ -56,4 +57,12 @@ public int increaseNumber(int input)
     input++;
     return input;
 }
-```
+```  
+
+#### Objects  
+
+Objects are stored on the Heap. This is a separate area of memory from the stack. When we create an object it is placed in the stack and a link to the object is stored in the current frame. When we pass an object to a method what we actually pass to the method is the link to the object. This is why if we pass an object to a method and makke changes to it those changes are reflected through the code. The following example describes how this works.
+
+
+
+
