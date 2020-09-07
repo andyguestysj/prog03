@@ -1,5 +1,5 @@
 ---
-title: Primitives vs Objects II
+title: Primitives Vs Objects II
 permalink: /docs/prim-obj2/
 ---
 
