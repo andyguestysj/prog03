@@ -1,11 +1,11 @@
 ---
-title: Stack vs Heap
-permalink: /docs/stack-heap/
+title: Primitives vs Objects II
+permalink: /docs/prim-obj2/
 ---
 
 
 
-### Why are objects and primitives different
+### Why objects and primitives different
 Primitive variables are small and of known size  
 * They can be passed very quickly by variable  
 * Removed automatically with the frame  

@@ -1,5 +1,5 @@
 ---
-title: Primitives Vs Objects
+title: Primitives Vs Objects I
 permalink: /docs/prim-obj/
 ---
 
