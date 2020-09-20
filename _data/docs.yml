@@ -36,7 +36,9 @@
   - the-heap
   - prim-obj2
   - intro-summary
+  - intro-exercise
 
 - title: 2. C Programming
   docs:
   - intro-c
+  - c-02
