@@ -32,13 +32,17 @@ The C version is a little different but should look very familiar.
 
 Breaking the code down.  
 
-``` #include <stdio.h> ```  
+```c
+#include <stdio.h> 
+```
 
 This imports the Standard Input/Output library. This is required to use the ```printf``` function.
 
-``` int main(void){
+```c
+int main(void){
 
-} ```
+}
+```
 
 
 
