@@ -96,21 +96,23 @@ The main function returns an integer. A zero indicates the programme exitted cor
 
 ### Compiling And Executing C Code
 
-In repl.it you can simply press the <i class="fa fa-play" aria-hidden="true"> button.  
+In repl.it you can simply press the <i class="fa fa-play" aria-hidden="true"><body> button.  
 
-Alternatively, the way to compile C code from the Linux terminal is
+Alternatively, the way to compile C code from the Linux terminal is  
 * Click on the terminal window
 * Enter ```gcc main.c```
 * Enter ```./a.out```
 
 ```gcc main.c``` - main.c is the name of our C file. ```gcc``` is the command for the GNU C Compiler. ```gcc main.c``` compiles the main.c file to the standard output file ```a.out```.  
 
-If you wish you can specify the output executable filename with ```gcc main.c -o HelloWorld```. The ```-o``` flag allows you to specify the filename.
+If you wish you can specify the output executable filename with ```gcc main.c -o HelloWorld```. The ```-o``` flag allows you to specify the filename.  
 
-```./a.out``` executes the file ```a.out```.
+```./a.out``` executes the file ```a.out```.  
 
-You can see which files exits in the folder with the `ls` command.
+You can see which files exits in the folder with the `ls` command.  
 
+## Exercises
 
+ <iframe title="Hello World in C" height="400px" width="100%" src="https://repl.it/@andyguest/HelloWorld?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>  
 
-
+1. In the repl.it box above, compile and execute the code by pressing the <i class="fa fa-play" aria-hidden="true"> button.   
