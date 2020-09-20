@@ -123,14 +123,46 @@ You can see which files exits in the folder with the `ls` command.
 The ls command lists all the files in the current folder that are not hidden.  
 By using the `-l` flag you can see the full details of each unhidden file.
 
-`ls -l`
-
 ```console
 ls -l
+total 16
+-rwxr-xr-x 1 runner runner 8304 Sep 20 10:02 main
+-rw-r--r-- 1 runner runner   77 Sep 20 08:25 main.c
+```  
+The first part of this, `-rwxr-xr-x`, shows the accessibility of the file. The first character indicates the if the entry is a folder or not (`d` for folder, `-` for anything else i.e. a file). The rest of the string is made up of three sets of three letters, indicating the permissions of types of users.
+* The first three characters indicate the *owners* permissions
+* The middle three characters indicate the *group* permissions for the group owning the file
+* The last three characters indicate the premissions for *others*, i.e. everyone else
+The three characters in each set indicate whether or not that user can do something with the file. A `-` indicates the user cannot do it, a letter indicates they can.  
+* The first character indicates if the user-type can read the file. If it is `r` then the user-type can read the file, they can see its contents but not change them. 
+* The second character is `w` if the user-type can write the file, if they can edit it. It **is** possible to have write but not read access.
+* The third character is `x` if the user-type can execute the file.
+
+The second column of the listing shows how many link to the file.  
+
+The third column indicates the *owner* of the file.  
+
+The fourth column indicates the *group owner* of the file.
+
+The fifth column indicates the size of the file in bytes. If the entry is a directory the size is always 4096.
+
+The sixth column indicates the last time and date the file was modified.  
+
+The seventh column indicates the name of the file or directory.  
+
+The ls command can also use the -A flag to show hidden files. Flags can be combined to show multiple items.
+
+```console
+ls -la
 total 20
 drwxr-xr-x 1 runner runner   20 Sep 20 10:05 .
 drwxr-xr-x 1 runner runner 4096 Sep 20 10:05 ..
 -rwxr-xr-x 1 runner runner 8304 Sep 20 10:02 main
 -rw-r--r-- 1 runner runner   77 Sep 20 08:25 main.c
 ```
+
+This shows all the information for all the files, including any hidden ones.  
+
+The entry `.` is the current folder. The `..` entry is the folder above the current one.  
+
 
