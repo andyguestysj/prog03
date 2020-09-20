@@ -10,6 +10,7 @@
   docs:
   - replit
   - git
+  - clang
 
 - title: Assessment
   docs:
@@ -35,3 +36,7 @@
   - the-heap
   - prim-obj2
   - intro-summary
+
+- title: 2. C Programming
+  docs:
+  - intro-c
