@@ -14,9 +14,7 @@ The downside to this level of access is that you have to be very aware of what y
 
 C is the basis on which many other languages are based, including C++, C# and Objective C.
 
-Unlike Java C is not an object-oriented language. You cannot create classes in C. 
-
-C should look a lot like Java. 
+C should look a lot like Java, but unlike Java C is not an object-oriented language. You cannot create classes in C. *Methods* in C are called *functions*.  
 
 ## Hello World
 
@@ -24,13 +22,24 @@ We'll start the traditional way with *Hello World*.
 
 Here's *Hello World* in Java.
 
-#### Hello World Java
+##### Hello World Java
  <iframe title="Hello World in Java" height="400px" width="100%" src="https://repl.it/@andyguest/JavaHelloWorld?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>  
 
 The C version is a little different but should look very familiar.  
 
-#### Hello World C
+##### Hello World C
  <iframe title="Hello World in C" height="400px" width="100%" src="https://repl.it/@andyguest/HelloWorld?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>  
+
+Breaking the code down.  
+
+``` #include <stdio.h> ```  
+
+This imports the Standard Input/Output library. This is required to use the ```printf``` function.
+
+``` int main(void){
+
+} ```
+
 
 
 
