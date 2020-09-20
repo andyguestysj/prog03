@@ -115,4 +115,5 @@ You can see which files exits in the folder with the `ls` command.
 
  <iframe title="Hello World in C" height="400px" width="100%" src="https://repl.it/@andyguest/HelloWorld?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>  
 
-1. In the repl.it box above, compile and execute the code by pressing the <i class="fa fa-play" aria-hidden="true"> button. blah abhad0isjdfipjopidjasoppj uhgr fwpohw;oh hweohf oiseh  
+1. In the repl.it box above, compile and execute the code by pressing the <i class="fa fa-play" aria-hidden="true">
+button. 
