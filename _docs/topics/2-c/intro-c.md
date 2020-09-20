@@ -96,7 +96,7 @@ The main function returns an integer. A zero indicates the programme exitted cor
 
 ### Compiling And Executing C Code
 
-In repl.it you can simply press the <i class="fa fa-play" aria-hidden="true"> button.  
+In repl.it you can simply press <i class="fa fa-play" aria-hidden="true">  
 
 Alternatively, the way to compile C code from the Linux terminal is  
 * Click on the terminal window
@@ -115,5 +115,22 @@ You can see which files exits in the folder with the `ls` command.
 
  <iframe title="Hello World in C" height="400px" width="100%" src="https://repl.it/@andyguest/HelloWorld?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>  
 
-1. In the repl.it box above, compile and execute the code by pressing the <i class="fa fa-play" aria-hidden="true">
-button. 
+1. In the repl.it box above, compile and execute the code by pressing <i class="fa fa-play" aria-hidden="true">
+2. Compile and execute the code using the command line as described above.  
+
+### The *ls* Command
+
+The ls command lists all the files in the current folder that are not hidden.  
+By using the `-l` flag you can see the full details of each unhidden file.
+
+`ls -l`
+
+```console
+ls -l
+total 20
+drwxr-xr-x 1 runner runner   20 Sep 20 10:05 .
+drwxr-xr-x 1 runner runner 4096 Sep 20 10:05 ..
+-rwxr-xr-x 1 runner runner 8304 Sep 20 10:02 main
+-rw-r--r-- 1 runner runner   77 Sep 20 08:25 main.c
+```
+
