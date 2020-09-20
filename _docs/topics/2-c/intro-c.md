@@ -33,10 +33,8 @@ The C version is a little different but should look very familiar.
 Breaking the code down.  
 
 ```c
-#include <stdio.h> 
-```
-
-This imports the Standard Input/Output library. This is required to use the ```printf``` function.
+#include <stdio.h>
+``` | This imports the Standard Input/Output library. This is required to use the ```printf``` function.
 
 ```c
 int main(void){
