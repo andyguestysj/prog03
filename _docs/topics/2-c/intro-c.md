@@ -34,12 +34,14 @@ Breaking the code down.
 
 <div class="row">
   <div class="col-md-6" markdown="1">  
+  
     ```c
     #include <stdio.h>
     ```  
   </div>
-  <div class="col-md-8" markdown="1">
-    This imports the Standard Input/Output library. This is required to use the ```printf``` function.  
+  <div class="col-md-6" markdown="1">  
+
+This imports the Standard Input/Output library. This is required to use the ```printf``` function.  
   </div>
 </div>
 
@@ -52,7 +54,8 @@ int main(void){
 }
 ```   
   </div>
-  <div class="col-md-8" markdown="1">
+  <div class="col-md-6" markdown="1">  
+
 Just like Java every C programme has a main function. This is the *entry* point for the application, the first function called when the programme is run.  
   </div>
 </div>
