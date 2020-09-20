@@ -64,11 +64,52 @@ Just like Java every C programme has a main function. This is the *entry* point 
   </div>
 </div>
 
+<div class="row">
+  <div class="col-md-6" markdown="1">  
 
+```c
+printf("Hello World\n");
+```   
+  
+  </div>
+  <div class="col-md-6" markdown="1">  
 
+Outputs *Hello World* to the screen. ```printf``` is the *formatted print* function.  
+  
+  </div>
+</div>
 
+<div class="row">
+  <div class="col-md-6" markdown="1">  
 
+```c
+return 0;
+```   
+  
+  </div>
+  <div class="col-md-6" markdown="1">  
 
+The main function returns an integer. A zero indicates the programme exitted correctly. Any other value indicates some kind of error. Typically the number indicates which specific error occurred.
+  
+  </div>
+</div>
+
+### Compiling And Executing C Code
+
+In repl.it you can simply press the <i class="fa fa-play" aria-hidden="true"> button.  
+
+Alternatively, the way to compile C code from the Linux terminal is
+* Click on the terminal window
+* Enter ```gcc main.c```
+* Enter ```./a.out```
+
+```gcc main.c``` - main.c is the name of our C file. ```gcc``` is the command for the GNU C Compiler. ```gcc main.c``` compiles the main.c file to the standard output file ```a.out```.  
+
+If you wish you can specify the output executable filename with ```gcc main.c -o HelloWorld```. The ```-o``` flag allows you to specify the filename.
+
+```./a.out``` executes the file ```a.out```.
+
+You can see which files exits in the folder with the `ls` command.
 
 
 
