@@ -32,15 +32,53 @@ The C version is a little different but should look very familiar.
 
 Breaking the code down.  
 
+<table>
+
+<tr>
+<th> Code </th>
+<th> Explanation </th>
+</tr>
+
+<tr>
+<td>
+
 ```c
 #include <stdio.h>
-``` | This imports the Standard Input/Output library. This is required to use the ```printf``` function.
+```
+
+</td>
+
+<td>
+
+This imports the Standard Input/Output library. This is required to use the ```printf``` function.  
+
+</td>
+</tr>
+
+<tr>
+<td>
 
 ```c
 int main(void){
 
 }
 ```
+
+</td>
+
+<td> 
+
+Just like Java every C programme has a main function. This is the *entry* point for the application, the first function called when the programme is run.
+
+</td>
+</tr>
+
+
+
+</table>
+
+
+
 
 
 
