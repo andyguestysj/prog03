@@ -172,7 +172,7 @@ int silly(int locali)
 </div>
 
 
-#### silly() cexits
+#### silly() exits
 <div class="row">
     <div class="col-md-6">
             <pre><code class="language-java">public static void main(String[] args) 
@@ -194,7 +194,7 @@ int silly(int locali)
 </ul>
     </div>
     <div class="col-md-6">
-<img src="/assets/img/stack-time-8.png" alt="simple java stack">
+<img src="/assets/img/stack-time-7.png" alt="simple java stack">
 
     </div>
 </div>
