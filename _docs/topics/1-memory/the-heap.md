@@ -220,7 +220,7 @@ public test(int a, simple b)
 </ul>
     </div>
     <div class="col-md-6">
-<img src="/assets/img/heap1-8.png" alt="java heap example">
+<img src="/assets/img/heap1-6.png" alt="java heap example">
 
     </div>
 </div>
@@ -248,7 +248,7 @@ public test(int a, simple b)
 </ul>
     </div>
     <div class="col-md-6">
-<img src="/assets/img/heap1-9.png" alt="java heap example">
+<img src="/assets/img/heap1-8.png" alt="java heap example">
 
     </div>
 </div>
@@ -337,7 +337,7 @@ public test(int a, simple b)
 </ul>
     </div>
     <div class="col-md-6">
-<img src="/assets/img/heap1-11.png" alt="java heap example">
+<img src="/assets/img/heap1-10.png" alt="java heap example">
 
     </div>
 </div>
@@ -367,7 +367,7 @@ public test(int a, simple b)
 </ul>
     </div>
     <div class="col-md-6">
-<img src="/assets/img/heap1-10.png" alt="java heap example">
+<img src="/assets/img/heap1-11.png" alt="java heap example">
 
     </div>
 </div>

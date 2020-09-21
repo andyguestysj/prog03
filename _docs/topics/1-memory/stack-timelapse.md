@@ -172,6 +172,34 @@ int silly(int locali)
 </div>
 
 
+#### silly() cexits
+<div class="row">
+    <div class="col-md-6">
+            <pre><code class="language-java">public static void main(String[] args) 
+{
+  int i=1; 
+
+  i = silly(i);
+}
+
+int silly(int locali)
+{
+  locali = 3;
+  return locali;
+<b>}</b>
+</code></pre>
+<ul>
+<li>silly() frame deleted as method exits
+</li>
+</ul>
+    </div>
+    <div class="col-md-6">
+<img src="/assets/img/stack-time-8.png" alt="simple java stack">
+
+    </div>
+</div>
+
+
 #### Main finishes and program closes
 <div class="row">
     <div class="col-md-6">

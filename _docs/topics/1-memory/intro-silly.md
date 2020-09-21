@@ -120,7 +120,7 @@ void silly()
 {
   int i=1; 
 
-  silly();
+  i = silly(i);
 } 
 
 void silly(int locali)
@@ -145,7 +145,7 @@ void silly(int locali)
 {
   int i=1; 
 
-  silly();
+  i = silly(i);
 } 
 
 void silly(int locali)

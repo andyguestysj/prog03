@@ -181,7 +181,7 @@ public main()
 <li>This will succeed</li>
 <li>Most Java classes implement equals()</li>
 <li>You will need to implement equals for your own classes</li>
-<li>[Instructions on doing this](https://www.sitepoint.com/implement-javas-equals-method-correctly/)</li>
+<li markdown="1">[Instructions on doing this](https://www.sitepoint.com/implement-javas-equals-method-correctly/)</li>
 </ul>
     </div>
     <div class="col-md-6">
