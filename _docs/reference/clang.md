@@ -1,5 +1,5 @@
 ---
-title: C Language Reference Page1
+title: C Language Reference
 permalink: /docs/clang/
 ---
 
