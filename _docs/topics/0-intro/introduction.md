@@ -25,7 +25,7 @@ permalink: /docs/introduction/
 
 5. Assembly Language
 
-## <a name="asseddment"></a>Assessment
+## <a name="assessment"></a>Assessment
 
 Portfolio  
 * Submitted at the end of the module  
