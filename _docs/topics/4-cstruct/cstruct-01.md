@@ -1,6 +1,6 @@
 ---
 title: C Data Structures
-permalink: /docs/c2-01/
+permalink: /docs/cstruct-01/
 ---
 
 C doesn't have classes and objects, it isn't an object oriented programming language. 

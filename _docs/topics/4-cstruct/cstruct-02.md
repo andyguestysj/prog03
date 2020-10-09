@@ -1,6 +1,6 @@
 ---
 title: C Linked Lists
-permalink: /docs/c2-01/
+permalink: /docs/cstruct_02/
 ---
 
 In C we can create very flexible ways of storing data using a combination of pointers and data structures to create different types of linked lists.  
