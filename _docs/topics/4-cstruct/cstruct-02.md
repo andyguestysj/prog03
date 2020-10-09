@@ -7,7 +7,7 @@ In C we can create very flexible ways of storing data using a combination of poi
 
 A linked list is made up of data structures where a part of each structure is a link to the next entry in the list.  
 
-![A simple linked list](/assets/img/topic3/linlist.jpg "The A simple linked list")
+![A simple linked list](/assets/img/topic4/linlist.jpg "The A simple linked list")
 
 **Linked List Terminology**
 * **node** - a data structure in a linked list - consists of data and one or more pointers to other entries in the linked list
@@ -135,7 +135,7 @@ while (temp->next != NULL)   // If next is NULL we are on the last entry in the 
 
 New nodes are typically added to the end of the list. To do this we traverse to *tail*, the end of the list, create a new node and connect the next of the *tail* to the new node, making the new node in to the new *tail*.  
 
-![Insert at end of Linked List](/assets/img/topic3/Linkedlist_insert_last.png "Insert at end of Linked List")
+![Insert at end of Linked List](/assets/img/topic4/Linkedlist_insert_last.png "Insert at end of Linked List")
 
 Note that this will not work with an empty list. Add the first item with `newNode()`.  
 
@@ -209,7 +209,7 @@ void addNodeToEndOfListAlt(node **start, int value){   // and any other data
 
 Adding an entry to the start of the list is faster since we don't need to traverse the list first but riskier, we have to be careful to connect things up properly, the `next` of the new node as to point to the previous `head` value and then the `head` value has to point to the new node.
 
-![Insert at start of Linked List](/assets/img/topic3/Linkedlist_insert_at_start.png "Insert at start of Linked List")
+![Insert at start of Linked List](/assets/img/topic4/Linkedlist_insert_at_start.png "Insert at start of Linked List")
 
 ```c
   node *head = NULL;    // start with an empty list
@@ -260,7 +260,7 @@ AddNodeToStartOfList(&head,4);
 
 Linked lists are flexible enough to allow you to insert entries directly in to the middle of the list.
 
-![Insert in middle of Linked List](/assets/img/topic3/Linkedlist_insert_middle.png "Insert in middle of Linked List")
+![Insert in middle of Linked List](/assets/img/topic4/Linkedlist_insert_middle.png "Insert in middle of Linked List")
 
 ```c
 void insertNode(node* head, int value)
