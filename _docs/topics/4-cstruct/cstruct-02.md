@@ -7,7 +7,7 @@ In C we can create very flexible ways of storing data using a combination of poi
 
 A linked list is made up of data structures where a part of each structure is a link to the next entry in the list.  
 
-![A simple linked list](/assets/img/topic4/linlist.jpg "The A simple linked list")
+![A simple linked list](/assets/img/topic4/linklist.jpg "The A simple linked list")
 
 **Linked List Terminology**
 * **node** - a data structure in a linked list - consists of data and one or more pointers to other entries in the linked list
@@ -330,5 +330,28 @@ void deleteNode(struct Node **head_ptr, int value)
 } 
 ```
 
-![Deletion from Linked List](/assets/img/topic3/Linkedlist_deletion.png "Deletion from Linked List")
+![Deletion from Linked List](/assets/img/topic4/Linkedlist_deletion.png "Deletion from Linked List")
+
+## Swapping Two Nodes Round By Value
+
+The easiest way to swap two nodes around is to swap the values within the nodes around. In our `node` example with only a single integer value this is trivially easy.  
+
+```c
+void SwapNodesByValue(node *node1, *node2)
+{
+  int temp;
+  temp = node1->val;
+  node1->val = node2->val;
+  node2->val = temp;
+}
+```
+
+#### Exercise 1 
+
+1. Log in to repl.it
+2. Go to [https://repl.it/@andyguest/cLinkedLists](https://repl.it/@andyguest/cLinkedLists)
+3. Click on the `fork` button at the top of the window to make a copy of the code in your own repls
+4. Click on the three lines at the top left of the window and then `My Repls` in the pop out menu
+5. Open the `cLinkedLists` repl from your area
+6. Work your way through the tasks in the code - they are in the comments
 
