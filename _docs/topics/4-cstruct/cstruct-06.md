@@ -44,6 +44,7 @@ DLLs have an extra pointer to `prev` node.
 <div class="row">
 <div class="col-md-6"  markdown="1">
 **Doubly Linked List**
+
 ```c
 typedef struct Node { 
     int data; 
@@ -54,6 +55,7 @@ typedef struct Node {
 </div>
 <div class="col-md-6"  markdown="1">
 **Singly Linked List**
+
 ```c
 typedef struct Node { 
     int data; 
@@ -70,15 +72,19 @@ No difference here.
 <div class="row">
 <div class="col-md-6"  markdown="1">
 **Doubly Linked List**
+
 ```c
 Node *head = NULL;
 ```
+
 </div>
 <div class="col-md-6"  markdown="1">
 **Singly Linked List**
+
 ```c
 Node *head = NULL;
 ```
+
 </div>
 </div>
 
@@ -89,6 +95,7 @@ Creating a new node, that is separate from the list is much the same.
 <div class="row">
 <div class="col-md-6"  markdown="1">
 **Doubly Linked List**
+
 ```c
 Node *NewNode(int data)
 {
@@ -98,9 +105,11 @@ Node *NewNode(int data)
     new->next = NULL;
 }
 ```
+
 </div>
 <div class="col-md-6"  markdown="1">
 **Singly Linked List**
+
 ```c
 Node *NewNode(int data)
 {
@@ -108,7 +117,9 @@ Node *NewNode(int data)
     new->data = data;
     new->next = NULL;
 }
-```</div>
+```
+
+</div>
 </div>
 
 ### Add Node To List
@@ -123,6 +134,7 @@ Inserting at the start is a simple process, we just need to ensure the `prev` po
 <div class="row">
 <div class="col-md-6"  markdown="1">
 **Doubly Linked List**
+
 ```c
 void AddNewNodeAtStart(Node** head_ref, int data)
 {
@@ -152,6 +164,7 @@ void AddNewNodeAtStart(Node** head_ref, int data)
 </div>
 <div class="col-md-6"  markdown="1">
 **Singly Linked List**
+
 ```c
 void AddNewNodeAtStart(Node** head_ref, int data)
 {
@@ -165,5 +178,7 @@ void AddNewNodeAtStart(Node** head_ref, int data)
 
     // Now update head to point to the new node.
     (*head_ref) = new;            
-}```</div>
+}
+```
+</div>
 </div>
