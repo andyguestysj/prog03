@@ -59,7 +59,8 @@ typedef struct Node {
     int data; 
     struct Node* next; // Pointer to next node in DLL     
 }Node;
-```</div>
+```
+</div>
 </div>
 
 ### Heads
@@ -114,6 +115,10 @@ Node *NewNode(int data)
 Here's where the differences start to show. When we add a node to the list we have to ensure its `next` and `prev` pointers are set correctly. We also have to ensure the `next` pointer of the node *before* our new node's new position is correctly *and* we have to ensure the `prev` of the node *after* the new one is set correctly.
 
 #### At Start
+
+Inserting at the start is a simple process, we just need to ensure the `prev` pointer of the old first node is changed correctly.  
+
+![Insert at start of DLL](/assets/img/topic4/DLL_add_front1.png "Insert at start of DLL")  v
 
 <div class="row">
 <div class="col-md-6"  markdown="1">
