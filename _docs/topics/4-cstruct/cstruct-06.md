@@ -129,7 +129,7 @@ Here's where the differences start to show. When we add a node to the list we ha
 
 Inserting at the start is a simple process, we just need to ensure the `prev` pointer of the old first node is changed correctly.  
 
-![Insert at start of DLL](/assets/img/topic4/DLL_add_front1.png "Insert at start of DLL")  v
+![Insert at start of DLL](/assets/img/topic4/DLL_add_front1.png "Insert at start of DLL")  
 
 <div class="row">
 <div class="col-md-6"  markdown="1">
@@ -182,3 +182,139 @@ void AddNewNodeAtStart(Node** head_ref, int data)
 ```
 </div>
 </div>
+
+#### Insert After
+
+Inserting a node after another node is relatively simple. There are lots of pointers you have to be careful to link up correctly though.  
+
+![Insert after node](/assets/img/topic4/DLL_add_middle1.png "Insert after node")  
+
+<div class="row">
+<div class="col-md-6"  markdown="1">
+**Doubly Linked List**
+
+```c
+void InsertNodeAfter(Node* prev_node, int data)
+{
+    Node *new = NewNode(data);
+
+    if (prev_node==NULL)
+    {
+        printf("prev_node invalid\n");
+        return;
+    }
+    
+    // Set up the links in new
+    new->prev = prev_node;
+    new->next = prev_node->next;
+
+    // Connect prev_node to new
+    prev_node->next = new;
+
+    if (new->next!=NULL)
+    { 
+        // here's the trippy one - we need to set the node after new's prev to point to new.
+        // the node after new is new->next, for the prev is node->next->prev!
+        new->next->prev = new;
+    }
+}
+```
+
+</div>
+<div class="col-md-6"  markdown="1">
+**Singly Linked List**
+
+```c
+void InsertNodeAfter(Node* prev_node, int data)
+{
+    Node *new = NewNode(data);
+
+    if (prev_node==NULL)
+    {
+        printf("prev_node invalid\n");
+        return;
+    }
+    
+    // Set up the links in new    
+    new->next = prev_node->next;
+    prev_node->next = new;
+}
+```
+
+</div>
+</div>
+
+
+#### Insert At End
+
+Inserting a node after another node is relatively simple. There are lots of pointers you have to be careful to link up correctly though.  
+
+![Insert node at end](/assets/img/topic4/DLL_add_end1.png "Insert node at end")  
+
+<div class="row">
+<div class="col-md-6"  markdown="1">
+**Doubly Linked List**
+
+```c
+void InsertNodeAtEnd(Node** head_ref, int data)
+{
+    Node *new = NewNode(data);
+
+    if (*head_ref==NULL)
+    {
+        // List is empty, same as insert at start
+        new->prev=NULL;
+        (*head_ref) = new;
+        return;
+    }
+
+    // Get the first node address - we'll traverse to end from here
+    Node *last = *head_ref; 
+
+    // Traverse list till you get to the last node, the node where ->next==NULL
+    while (last->next != NULL)
+    {
+        last = last->next;
+    }
+
+    // Change next of last node to new node
+    last->next = new;
+    // Change prev of new to point to last
+    new->prev = last;
+}
+```
+
+</div>
+<div class="col-md-6"  markdown="1">
+**Singly Linked List**
+
+```c
+void InsertNodeAtEnd(Node** head_ref, int data)
+{
+    Node *new = NewNode(data);
+
+    if (*head_ref==NULL)
+    {
+        // List is empty, same as insert at start        
+        (*head_ref) = new;
+        return;
+    }
+
+    // Get the first node address - we'll traverse to end from here
+    Node *last = *head_ref; 
+
+    // Traverse list till you get to the last node, the node where ->next==NULL
+    while (last->next != NULL)
+    {
+        last = last->next;
+    }
+
+    // Change next of last node to new node
+    last->next = new;
+}
+
+</div>
+</div>
+
+
+
