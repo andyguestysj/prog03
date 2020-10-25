@@ -137,8 +137,6 @@ int main()
 
 This code is available at [https://repl.it/@andyguest/cStack](https://repl.it/@andyguest/cStack)  
 
-http://csis.pace.edu/~wolf/CS122/infix-postfix.htm
-
 #### Exercise 1 
 
 1. Log in to repl.it
