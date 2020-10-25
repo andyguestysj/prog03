@@ -335,7 +335,7 @@ void InsertNodeAtEnd(Node** head_ref, int data)
 
 Deleting nodes is a matter of ensuring the links are correctly changed and then freeing up the memory used by the node to be deleted.  
 
-![Deleting a node from a DLL](/assets/img/topic4/dll-del "Deleting a node from a DLL")  
+![Deleting a node from a DLL](/assets/img/topic4/dll-del.gif "Deleting a node from a DLL")  
 
 Three possible cases
 1. Node to be deleted is the fist node
@@ -367,6 +367,8 @@ if del.previousNode != none
       del.previousNode.nextNode = del.next
 ```
 
+We can do this with the code below.  
+
 ```c
 void deleteNode(Node** head_ref, Node* del) 
 { 
@@ -393,3 +395,10 @@ void deleteNode(Node** head_ref, Node* del)
     return; 
 } 
 ```
+
+#### Exercise 2
+
+1. Return to your "DoubleLinked" repl
+2. Add in `deleteNode()` above and verify it works.
+3. Create a new function `void deleteNodeAt(Node** head_ref, int position)` which will delete the node at position `position` in the list. i.e. if `position` is 0 delete the first node, if it is 1 delete the second node, etc. Your function should do nothing if it is asked to delete a node that doesn't exist.
+4. Modify `void deleteNodeAt(Node** head_ref, int position)` so that negative values of position are treated as offsets from the end. i.e. if `position` is -1 then delete the last node, -2 delete the second last node, etc.
