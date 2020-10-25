@@ -3,6 +3,8 @@ title: Doubly Linked Lists
 permalink: /docs/cstruct-06/
 ---
 
+(Adapted from geeksforgeeks.org)
+
 Previously we looked at a linked list made up of nodes where each node contains data and a pointer to the next entry in the list.
 
 ![A Linked List](/assets/img/topic4/linklist.jpg "A Linked List")  
@@ -312,6 +314,7 @@ void InsertNodeAtEnd(Node** head_ref, int data)
     // Change next of last node to new node
     last->next = new;
 }
+```
 
 </div>
 </div>
@@ -329,3 +332,64 @@ void InsertNodeAtEnd(Node** head_ref, int data)
 
 
 ### Deleting Nodes
+
+Deleting nodes is a matter of ensuring the links are correctly changed and then freeing up the memory used by the node to be deleted.  
+
+![Deleting a node from a DLL](/assets/img/topic4/dll-del "Deleting a node from a DLL")  
+
+Three possible cases
+1. Node to be deleted is the fist node
+2. Node to be deleted is the last node
+3. Node to be deleted is another node
+and a fourth case, that should be prevented
+4. Node to be deleted is not in the list
+
+**Algorithm** 
+* Let the node to be deleted be del.  
+* If node to be deleted is head node, then change the head pointer to next current head. 
+
+```c
+if headnode == del then
+      headnode =  del.nextNode
+```
+
+* Set next of previous to del, if previous to del exists. 
+
+```c
+if del.nextNode != none 
+      del.nextNode.previousNode = del.previousNode 
+```
+
+* Set prev of next to del, if next to del exists.
+
+```c
+if del.previousNode != none 
+      del.previousNode.nextNode = del.next
+```
+
+```c
+void deleteNode(Node** head_ref, Node* del) 
+{ 
+    /* base case */
+    if (*head_ref == NULL || del == NULL) 
+        return; 
+ 
+    /* If node to be deleted is head node */
+    if (*head_ref == del) 
+        *head_ref = del->next; 
+ 
+    /* Change next only if node to be 
+    deleted is NOT the last node */
+    if (del->next != NULL) 
+        del->next->prev = del->prev; 
+ 
+    /* Change prev only if node to be 
+    deleted is NOT the first node */
+    if (del->prev != NULL) 
+        del->prev->next = del->next; 
+ 
+    /* Finally, free the memory occupied by del*/
+    free(del); 
+    return; 
+} 
+```
