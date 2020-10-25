@@ -48,7 +48,7 @@ Data is pushed to the stack.
 
 Data is always pushed to the start of the stack.
 
-![Push second item to stack](/assets/img/topic4/stack-push-second-to-stack.jpg "Push second item to stack")  
+![Push second item to stack](/assets/img/topic4/push-second-to-stack.jpg "Push second item to stack")  
 
 You should think of the *head* of a stack as being the top of a stack.
 
