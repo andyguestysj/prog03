@@ -323,9 +323,8 @@ void InsertNodeAtEnd(Node** head_ref, int data)
 
 1. Log in to repl.it
 2. Create a repl call "DoubleLinked"
-3. Click on the `fork` button at the top of the window to make a copy of the code in your own repls
-4. Implement the doubly linked list described above
-5. Add these nodes in order : 7, 3, 9, 10, 5
+3. Implement the doubly linked list described above
+4. Add these nodes in order : 7, 3, 9, 10, 5
 5. Create a PrintList(Node *head) function that prints the values in the nodes from first to last
 6. Modify PrintList(Node *head) so that it prints the values from first to last then from last to first
 7. Write void InsertNodeBefore(Node *next_node, int data) that inserts a new node in to the list before next_node.
