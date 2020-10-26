@@ -147,6 +147,7 @@ This code is available at [https://repl.it/@andyguest/cStack](https://repl.it/@a
 6. Convert the stack and code so that it stores `char`s instead of `int`s
 7. Write a function that takes a char array as a parameter and returns a char array with the original string backwards. Use a stack to do this.
 8. Write a function that takes a char array string as input. The input is made up of letters, spaces and asterisks. Parse the string character by character. If the character is a letter or a space push it to the stack. If it is an asterisk, pop it from the stack and print it. Test your function with this string "TH\*E L\*L\*AMA CO\*ME\*S FIRST"
+9. Modify your function from 8 so that after you've finished parsing the string you pop and print everything from the stack. Test it with "SH\*E\*KLL\*OFL\*O\*"
 
 
 
