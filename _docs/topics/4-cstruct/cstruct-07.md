@@ -145,7 +145,16 @@ This code is available at [https://repl.it/@andyguest/cStack](https://repl.it/@a
 4. Click on the three lines at the top left of the window and then `My Repls` in the pop out menu
 5. Open the `cLinkedLists` repl from your area
 6. Convert the stack and code so that it stores `char`s instead of `int`s
-7. Read through [Infix to Postfix Algorithm](http://csis.pace.edu/~wolf/CS122/infix-postfix.htm)
-8. Try to implement the Infix to Postfix Algorithm.
+7. Write a function that takes a char array as a parameter and returns a char array with the original string backwards. Use a stack to do this.
+8. Write a function that takes a char array string as input. The input is made up of letters, spaces and asterisks. Parse the string character by character. If the character is a letter or a space push it to the stack. If it is an asterisk, pop it from the stack and print it. Test your function with this string "TH\*E L\*L\*AMA CO\*ME\*S FIRST"
 
 
+
+
+
+Extra Challenge
+
+Read through [https://www.web4college.com/converters/infix-to-postfix-prefix.php](https://www.web4college.com/converters/infix-to-postfix-prefix.php)  
+Try to implement the Infix to Postfix Algorithm.
+
+[Infix to Postfix Algorithm](http://csis.pace.edu/~wolf/CS122/infix-postfix.htm)
