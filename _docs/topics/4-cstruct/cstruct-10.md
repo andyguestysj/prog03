@@ -3,7 +3,7 @@ title: Binary Search Trees
 permalink: /docs/cstruct-10/
 ---
 
-This is where binary search trees come in. Binary search trees are sorted by an index or key value. This may be a value from node or calculated from it. This index value determines where a node is placed when it is added to the binary tree. Each node may have up to two children - a left child and a right child. The left child always has a lower index than its parent. The right child always has a higher index than its parent. (Where node with indexes equal to their parents are stored depends on the implementation. Typically nodes must have unique indexes and duplicate nodes are not possible).  
+Binary search trees are a special form of binary tree.. Binary search trees are sorted by an index or key value. This may be a value from node or calculated from it. This index value determines where a node is placed when it is added to the binary tree. Each node may have up to two children - a left child and a right child. The left child always has a lower index than its parent. The right child always has a higher index than its parent. (Where node with indexes equal to their parents are stored depends on the implementation. Typically nodes must have unique indexes and duplicate nodes are not possible).  
 
 ```c
 // We will use the data value for the index in these examples
@@ -20,7 +20,7 @@ typedef struct node {
 
 node* CreateNewNode(int data)
 {
-    node *temp = (node*)malloc(sizeof(node)):
+    node *temp = (node*)malloc(sizeof(node));
     temp->data = data;
     temp->left = temp->right = NULL;
 
@@ -59,15 +59,15 @@ void InsertNode(node **root, int data){
     }
 
     node *temp = (*root);
-    bool in = FALSE;
-    while (!in)
+    bool added = FALSE;
+    while (!added)
     {
         if (newnode->data < temp->data)
         {
             if (temp->left == NULL)
             {
                 temp->left = newnode;
-                in = true;
+                added = true;
             }
             else
             {
@@ -79,7 +79,7 @@ void InsertNode(node **root, int data){
             if (temp->right == NULL)
             {
                 temp->right = newnode;
-                in = true;
+                added = true;
             }
             else
             {
@@ -265,4 +265,46 @@ Post-order traversal produces a third order
 It travels as far as it can before outputting anything and only outputs the data from a node when the data from every node under it has already been output.  
 
 
+## Searching a BST
 
+To search for a node with a specific index value we start at the root node.
+
+If the node we are on is NULL, then the node we are looking for is not present and we return NULL. If it isn't NULL we compare the node we are on to the index value. If there is a match we return the node. If the index is less than the node's index we move to the node's left. If it is greater we move to the node's right. We then repeat the process (from the start of this paragraph).
+
+```c
+node* search(node **node, int val) 
+{
+    if((*node)==NULL) {
+        return NULL;
+    }
+
+    if(val == (*node)->data) 
+    {
+        return *node;
+    } 
+    else if(val < (*node)->data) 
+    {
+        search(&((*node)->left), val);
+    } 
+    else if(val > (*node)->data)
+    {
+        search(&((*node)->right), val);
+    }
+ }
+```
+#### Exercise 1 
+
+1. Log in to repl.it and create a new c program.
+2. Create a node structure that has the following components/fields
+  * Name - a char array of size 20
+  * DOBDay - an integer representing a day of the month
+  * DOBMonth - an integer representing a month
+  * DOBYear - an integer representing a year (4 digits)
+  * Index - an integer
+  * left & right - pointers to nodes of this structure
+3. Create a function `int CreateIndex(int day, int month, int year)` that calculate and returns an index value as an **integer** in the form yyyymmdd
+4. Create a function `node* CreateNode(char Name[20], int day, int month, int year)` that creates a new node (using malloc) and stores Name, day, month and year in the appropriate fields. It should set left and right to NULL. It should use the function from 3 to fill in the Index field.
+5. Create a function `void InsertNode(node **root, node *new_node)` that inserts `new_node` in to a binary search tree. It should use the calculated `index` value to determine less than and greater than.
+6. Create a function `void DisplayBirthday(node *anode)` that output a line of text in the format `Name : dd/mm/yyyy` for anode.
+7. Create a function `void BirthdaysInOrder(node *anode)` that traverses the BST and displays the birthday information from earliest to latest using the function from 5.
+8. Create a function `void BirthdaysBetween(node *anode, int index1, int index2)` that uses 6 to display two dates. The dates are stored in index1 and index2 using `CreateIndex`
