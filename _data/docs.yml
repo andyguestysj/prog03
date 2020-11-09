@@ -70,3 +70,7 @@
   - cstruct-08
   - cstruct-09
   - cstruct-10
+
+- title: 5. C Stuff
+  docs:
+  - cstuff-01
