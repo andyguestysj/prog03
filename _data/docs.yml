@@ -74,3 +74,10 @@
 - title: 5. C Stuff
   docs:
   - cstuff-01
+
+- title: 6. Assembly Language
+  docs:
+  - assembly-01
+  - assembly-02
+  - assembly-03
+  - assembly-04
