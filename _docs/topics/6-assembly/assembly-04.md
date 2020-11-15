@@ -87,3 +87,69 @@ AND MASK1, 128   ; Perform AND operation on the
 ADD MARKS, 10    ; Add 10 to the variable MARKS
 MOV AL, 10       ; Transfer the value 10 to the AL register
 ```
+
+### The Hello World Program in Assembly
+The following assembly language code displays the string 'Hello World' on the screen −
+
+```assembly
+section	.text
+   global _start     ;must be declared for linker (ld)
+	
+_start:	            ;tells linker entry point
+   mov	edx,len     ;message length
+   mov	ecx,msg     ;message to write
+   mov	ebx,1       ;file descriptor (stdout)
+   mov	eax,4       ;system call number (sys_write)
+   int	0x80        ;call kernel
+	
+   mov	eax,1       ;system call number (sys_exit)
+   int	0x80        ;call kernel
+
+section	.data
+msg db 'Hello, world!', 0xa  ;string to be printed
+len equ $ - msg     ;length of the string
+```
+
+When the above code is compiled and executed, it produces the following result −
+
+```console
+Hello, world!
+```
+
+The code is in repl.it at [https://repl.it/@andyguest/assemblyHelloWorld](https://repl.it/@andyguest/assemblyHelloWorld)
+
+### Memory Segments
+
+We can replace the keyword `section` with the keyword `segment` and the code will still run.  
+
+```assembly
+Live Demo
+segment .text	   ;code segment
+   global _start    ;must be declared for linker 
+	
+_start:	           ;tell linker entry point
+   mov edx,len	   ;message length
+   mov ecx,msg     ;message to write
+   mov ebx,1	   ;file descriptor (stdout)
+   mov eax,4	   ;system call number (sys_write)
+   int 0x80	   ;call kernel
+
+   mov eax,1       ;system call number (sys_exit)
+   int 0x80	   ;call kernel
+
+segment .data      ;data segment
+msg	db 'Hello, world!',0xa   ;our dear string
+len	equ	$ - msg          ;length of our dear string
+```
+
+A segmented memory model divides the system memory into groups of independent segments referenced by pointers located in the segment registers. Each segment is used to contain a specific type of data. One segment is used to contain instruction codes, another segment stores the data elements, and a third segment keeps the program stack.  
+
+In the light of the above discussion, we can specify various memory segments as −  
+
+* **Data segment** − It is represented by .data section and the .bss. The .data section is used to declare the memory region, where data elements are stored for the program. This section cannot be expanded after the data elements are declared, and it remains static throughout the program.
+
+  The .bss section is also a static memory section that contains buffers for data to be declared later in the program. This buffer memory is zero-filled.
+
+* **Code segment** − It is represented by .text section. This defines an area in memory that stores the instruction codes. This is also a fixed area.
+
+* **Stack** − This segment contains data values passed to functions and procedures within the program. This is both a stack and The Stack.  
