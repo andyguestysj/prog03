@@ -41,6 +41,8 @@ The following table shows some of the system calls  −
 |5|sys_open|const char *|int|int|-|-|
 |6|sys_close|unsigned int|-|-|-|-|-|
 
+[Full System Call table (Intel 32 Bit)](https://chromium.googlesource.com/chromiumos/docs/+/master/constants/syscalls.md#x86-32_bit) 
+
 **Example**
 The following example reads a number from the keyboard and displays it on the screen −  
 ```assembly
