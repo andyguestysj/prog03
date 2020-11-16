@@ -3,6 +3,8 @@ title: Assembly
 permalink: /docs/assembly-01/
 ---
 
+[Video Capture of this lecture](https://web.microsoftstream.com/video/bfdd085a-f41d-4c16-b5c9-14ddfb9645d7)  
+
 Each personal computer has a microprocessor that manages the computer's arithmetical, logical, and control activities.  
 
 Each family of processors has its own set of instructions for handling various operations such as getting input from keyboard, displaying information on screen and performing various other jobs. These set of instructions are called 'machine language instructions'.  
