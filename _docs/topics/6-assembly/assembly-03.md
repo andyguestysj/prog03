@@ -37,3 +37,4 @@ NB if you create an assembly file called something other than `main.asm` you'll 
 ## Local Installations
 
 NASM is available for any Linux system or Linux emulator for PC/Mac. There are other assemblers available that generally go by the name *ASM. MASM is a Microsoft assembler for example.  
+
