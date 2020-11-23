@@ -70,7 +70,7 @@ gdb main
 
 You should see something like this -  
 
-<img src="/assets/img/other/layout.png.png" alt="gdb layout">
+<img src="/assets/img/other/layout.png" alt="gdb layout">
 
 The upper section of the layout shows the registers and their contents.  
 The middle section of the layout shows the code with the current line highlighted.  
