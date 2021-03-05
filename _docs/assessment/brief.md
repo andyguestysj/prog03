@@ -1,5 +1,5 @@
 ---
-title: Brief
+title: Assessment
 permalink: /docs/brief/
 ---
 
