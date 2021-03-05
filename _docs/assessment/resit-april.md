@@ -66,16 +66,4 @@ Feedback will be provided through Moodle by Friday 7th May 2021
 
 ### Marking Guide
 
-|Component|Overall|Content|
-|---|---|---|
-|Data stored correctly in binary search tree (insertNode function)|20%|1.	Appropriate functions for creating a binary search tree and inserting nodes correctly|
-|Node Diagram Produced (displayTree function)|10%|1.	Diagram produced according to requirements|
-|Module list produced (displayModules function)|10%|1.	Module list produced according to requirements|
-|Semester Module list produced (displaySemester function)|10%|1.	Semester module list produced according to requirements|
-|Search Module list produced (searchModule function)|20%|1.	Module search function produces list to requirements|
-|Coding Style|5%|1.	Code structure, comments, etc.|
-|Document|25%|Document
-1.	Explains the functionality of the code
-2.	Explains where in memory the binary search tree and variables used in code are and what that memory is/how it is used.
-3.	Structured, well written, etc.|
-
+The marking guide is available in the assessment brief document linked above/on moodle.
