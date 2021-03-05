@@ -60,11 +60,11 @@ typedef struct moduleNode {
 } moduleNode; 
 ```
 
- ### Feedback 
+### Feedback 
 
- Feedback will be provided through Moodle by Friday 7th May 2021
+Feedback will be provided through Moodle by Friday 7th May 2021
 
- ### Marking Guide
+### Marking Guide
 
 |Component|Overall|Content|
 |---|---|---|
