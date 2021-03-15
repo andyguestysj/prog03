@@ -116,7 +116,7 @@ When the above code is compiled and executed, it produces the following result â
 Hello, world!
 ```
 
-The code is in repl.it at [https://repl.it/@andyguest/assemblyHelloWorld](https://repl.it/@andyguest/assemblyHelloWorld)
+The code is in replit.com at [https://replit.com/@andyguest/assemblyHelloWorld](https://replit.com/@andyguest/assemblyHelloWorld)
 
 ### Memory Segments
 

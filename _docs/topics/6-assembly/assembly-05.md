@@ -135,6 +135,6 @@ Displaying 9 stars
 *********
 ```
 
-Code available in repl.it at [https://repl.it/@andyguest/assemblyStars](https://repl.it/@andyguest/assemblyStars)
+Code available in replit.com at [https://replit.com/@andyguest/assemblyStars](https://replit.com/@andyguest/assemblyStars)
 
 

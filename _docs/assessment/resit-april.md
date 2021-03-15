@@ -7,7 +7,7 @@ The resit assessment brief below is available on moodle and [here](../Assessment
 
 ## Storing Data In A Binary Search Tree
 
-Fork a copy of the repl at https://repl.it/@andyguest/cResitAssessment  
+Fork a copy of the repl at https://replit.com/@andyguest/cResitAssessment  
 
 For this assessment you must write code to read the data from the arrays in data.h and store it in a binary search tree (https://ysjprog03.netlify.app/docs/cstruct-10/) indexed using the module number. Each node in the binary tree should use the moduleNode structure provided.  
 

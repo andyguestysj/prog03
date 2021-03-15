@@ -5,12 +5,12 @@ permalink: /docs/intro-exercise/
 
 ## Java Memory Exercise
 
-1. Log in to [repl.it](https://repl.it/)
-  * See the reference page on repl.it if you haven't signed up already.
+1. Log in to [replit.com](https://replit.com/)
+  * See the reference page on replit.com if you haven't signed up already.
 
-2. Click on `+ New repl` to create a new repl. A repl is a project on the repl.it site.
+2. Click on `+ New repl` to create a new repl. A repl is a project on the replit.com site.
 
-![alt text](/assets/img/mem-ex-1.png "repl.it New Repl button")  
+![alt text](/assets/img/mem-ex-1.png "replit.com New Repl button")  
 
 3. In the pop up window select the `Import from GitHub` tab.
 
@@ -24,7 +24,7 @@ permalink: /docs/intro-exercise/
 
 ![alt text](/assets/img/mem-ex-5.png "Import from GitHub")  
 
-6. After a few moments you should see repl.it change to a code window.
+6. After a few moments you should see replit.com change to a code window.
 
 7. Select `Main.java` from the Files list on the left
 

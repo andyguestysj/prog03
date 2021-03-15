@@ -135,12 +135,12 @@ int main()
 
 ```
 
-This code is available at [https://repl.it/@andyguest/cStack](https://repl.it/@andyguest/cStack)  
+This code is available at [https://replit.com/@andyguest/cStack](https://replit.com/@andyguest/cStack)  
 
 #### Exercise 1 
 
-1. Log in to repl.it
-2. Go to [https://repl.it/@andyguest/cStack](https://repl.it/@andyguest/cStack)
+1. Log in to replit.com
+2. Go to [https://replit.com/@andyguest/cStack](https://replit.com/@andyguest/cStack)
 3. Click on the `fork` button at the top of the window to make a copy of the code in your own repls
 4. Click on the three lines at the top left of the window and then `My Repls` in the pop out menu
 5. Open the `cLinkedLists` repl from your area

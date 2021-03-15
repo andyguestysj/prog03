@@ -99,4 +99,4 @@ Please enter a number:
 You have entered:1234
 ```
 
-Code available at [https://repl.it/@andyguest/assemblyEnterNumber](https://repl.it/@andyguest/assemblyEnterNumber)]
+Code available at [https://replit.com/@andyguest/assemblyEnterNumber](https://replit.com/@andyguest/assemblyEnterNumber)]

@@ -321,7 +321,7 @@ void InsertNodeAtEnd(Node** head_ref, int data)
 
 #### Exercise 1 
 
-1. Log in to repl.it
+1. Log in to replit.com
 2. Create a repl call "DoubleLinked"
 3. Implement the doubly linked list described above
 4. Add these nodes in order : 7, 3, 9, 10, 5

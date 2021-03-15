@@ -5,11 +5,11 @@ permalink: /docs/assembly-03/
 
 We will be using **NASM** (Netwide Assembler) to compile some assembly language code.  
 
-NASM is installed in repl.it by default. You can use it from the terminal window/command line in repl.it.  
+NASM is installed in replit.com by default. You can use it from the terminal window/command line in replit.com.  
 
-However repl.it doesn't directly support Assembly language so we have to take a few steps to get it to run. I'll provide you with a starting template for exercises but if you want to create your own here are the steps.
+However replit.com doesn't directly support Assembly language so we have to take a few steps to get it to run. I'll provide you with a starting template for exercises but if you want to create your own here are the steps.
 
-1. Create a new c project in repl.it
+1. Create a new c project in replit.com
 2. Select the terminal window and run `rm main.c` - we are writing assembly, not c, we don't need it.
 3. Create a new file called `main.asm` - `asm` for assembly. You won't get coloured highlighting but we'll manage.
 4. Create a new file called `main.sh` and put the following in it  

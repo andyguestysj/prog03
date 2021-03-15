@@ -294,7 +294,7 @@ node* search(node **node, int val)
 ```
 #### Exercise 1 
 
-1. Log in to repl.it and create a new c program.
+1. Log in to replit.com and create a new c program.
 2. Create a node structure that has the following components/fields
   * Name - a char array of size 20
   * DOBDay - an integer representing a day of the month

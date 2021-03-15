@@ -305,8 +305,8 @@ void printBook( struct Book book )
 
 #### Exercise 1 
 
-1. Log in to repl.it
-2. Go to [https://repl.it/@andyguest/cDataStructures](https://repl.it/@andyguest/cDataStructures)
+1. Log in to replit.com
+2. Go to [https://replit.com/@andyguest/cDataStructures](https://replit.com/@andyguest/cDataStructures)
 3. Click on the `fork` button at the top of the window to make a copy of the code in your own repls
 4. Click on the three lines at the top left of the window and then `My Repls` in the pop out menu
 5. Open the `cDataStructures` repl from your area
@@ -485,13 +485,13 @@ Corner 2 (4.000000,4.000000)
 Corner 3 (1.000000,4.000000)
 ```
 
-[Square & Point code in repl.it](https://repl.it/@andyguest/cStructSquare)
+[Square & Point code in replit.com](https://replit.com/@andyguest/cStructSquare)
 
 
 #### Exercise 2
 
-1. Log in to repl.it
-2. Go to [https://repl.it/@andyguest/cDataStructuresTask2](https://repl.it/@andyguest/cDataStructuresTask2)
+1. Log in to replit.com
+2. Go to [https://replit.com/@andyguest/cDataStructuresTask2](https://replit.com/@andyguest/cDataStructuresTask2)
 3. Click on the `fork` button at the top of the window to make a copy of the code in your own repls
 4. Click on the three lines at the top left of the window and then `My Repls` in the pop out menu
 5. Open the `cDataStructuresTask2` repl from your area
