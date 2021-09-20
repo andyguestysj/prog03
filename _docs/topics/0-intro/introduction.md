@@ -5,15 +5,19 @@ permalink: /docs/introduction/
 
 ## <a name="outline"></a>Module Outline  
 
-1. Memory
+1. Basic Operations
+  * Storing Integers
+  * Storing Floating Point Numbers
+   
+2. Memory
   * How memory is used
   * The Stack, Frames, The Heap
   * Primitive Variables Vs Objects
   * Memory at a very low level
 
-2. Java Memory Usage
+3. Java Memory Usage
 
-3. C Programming
+4. C Programming
   * The Basics
   * GNU Debugger
   * Data Structures
@@ -21,9 +25,9 @@ permalink: /docs/introduction/
   * Linked Lists
   * Binary Trees
 
-4. Inside The Chip
+5. Inside The Chip
 
-5. Assembly Language
+6. Assembly Language
 
 ## <a name="assessment"></a>Assessment
 

@@ -24,71 +24,76 @@
   docs:
   - introduction
 
-- title: 1. Memory
+- title: 1. Basic Operations
   docs:
-  - memory
-  - the-stack
-  - intro-silly
-  - stack-timelapse
-  - recursion
-  - prim-obj
-  - the-heap
-  - prim-obj2
-  - intro-summary
-  - intro-exercise
+  - bops-intro
 
-- title: 2. C Programming
-  docs:
-  - intro-c
-  - c-02
-  - c-03
-  - c-04
-  - c-05
-  - c-06
-  - c-07
-  - c-08
-  - c-09
-  - c-10
 
-- title: 3. C Memory
+- title: 2. Memory
   docs:
-  - c2-01
-  - c2-02
-  - c2-03
-  - c2-task1
+  #- memory
+  #- the-stack
+  #- intro-silly
+  #- stack-timelapse
+  #- recursion
+  #- prim-obj
+  #- the-heap
+  #- prim-obj2
+  #- intro-summary
+  #- intro-exercise
+
+- title: 3. C Programming
+  docs:
+  #- intro-c
+  #- c-02
+  #- c-03
+  #- c-04
+  #- c-05
+  #- c-06
+  #- c-07
+  #- c-08
+  #- c-09
+  #- c-10
+
+- title: 4. C Memory
+  docs:
+  #- c2-01
+  #- c2-02
+  #- c2-03
+  #- c2-task1
   
-- title: 4. C Data Structures
+- title: 5. C Data Structures
   docs:
-  - cstruct-01
-  - cstruct-02
-  - cstruct-03
-  - cstruct-04
-  - cstruct-05
-  - cstruct-06
-  - cstruct-07
-  - cstruct-08
-  - cstruct-09
-  - cstruct-10
+  #- cstruct-01
+  #- cstruct-02
+  #- cstruct-03
+  #- cstruct-04
+  #- cstruct-05
+  #- cstruct-06
+  #- cstruct-07
+  #- cstruct-08
+  #- cstruct-09
+  #- cstruct-10
 
-- title: 5. C Stuff
+- title: 6. C Stuff
   docs:
-  - cstuff-01
+  #- cstuff-01
 
-- title: 6. Assembly Language
+- title: 7. Assembly Language
   docs:
-  - assembly-01
-  - assembly-02
-  - assembly-03
-  - assembly-04
-  - assembly-05
-  - assembly-06
-  - assembly-07
-  - assembly-08
-  - assembly-09
-  - assembly-10
-  - assembly-11
-  - assembly-12
-  - assembly-13
-  - assembly-14
-  - assembly-15
-  - assembly-16
+  #- assembly-01
+  #- assembly-02
+  #- assembly-03
+  #- assembly-04
+  #- assembly-05
+  #- assembly-06
+  #- assembly-07
+  #- assembly-08
+  #- assembly-09
+  #- assembly-10
+  #- assembly-11
+  #- assembly-12
+  #- assembly-13
+  #- assembly-14
+  #- assembly-15
+  #- assembly-16
