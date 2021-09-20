@@ -27,6 +27,7 @@
 - title: 1. Basic Operations
   docs:
   - bops-intro
+  - bops-binary
 
 
 - title: 2. Memory
