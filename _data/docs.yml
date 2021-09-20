@@ -28,6 +28,8 @@
   docs:
   - bops-intro
   - bops-binary
+  - bops-integers
+  - bops-floats
 
 
 - title: 2. Memory
