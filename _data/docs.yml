@@ -8,6 +8,7 @@
 
 - title: Reference
   docs:
+  - vsc
   - replit
   - git
   - clang
@@ -15,7 +16,7 @@
 - title: Assessment
   docs:
   - brief
-  - resit-april
+  #- resit-april
 
 - title: Topics
 

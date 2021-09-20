@@ -25,13 +25,12 @@ The best way to contact me is via [email](mailto:a.guest@yorksj.ac.uk). You can 
 
 MS Teams will be used for all face to face contact. Lab/tutorial session will be run as live MS Teams sessions. Please install MS Teams on your machines if you can, the web version is limited and a bit flaky.  
 
+## Visual Studio Code
+
+Our editor of choice this year is Visual Studio Code. VSC is installed on all our machines. It is a versatile, lightweight, easily extendable editor. It can be setup to work with multiple programming languages and to intergrate directly with the gitlab servers.
 ## replit.com
 
-Given the current circumstances requiring social distancing we have very limited space in the labs and we cannot do side by side programming. Students cannot sit together to code and lecturers cannot sit with students to help them. The installed version of MS Teams does allow screen sharing which allows us to work remotely but that requires everyone to have access to the required software. We know from experience that students using Eclipse, Visual Studio Code, Netbeans, etc is problematic. It is very hard for us to support you installing the software and problems arise with getting code to run on different compilers.
-
-We will be using the replit.com website for all coding on this module. replit.com is an online browser based compiler that supports a wide range of programming languages. Code is written directly in a browser, compiled and executed on replit.com's server and the output is sent back to the browser. This ensures that all students have access to the same software without installation issues. Additionally because the code is compiled and executed remotely on replit.com's servers it ensures that any computer with a browser and an internet connection can be used.  
-
-You **can** come in to the labs, during your timetabled sessions, if you wish or do not have access to a machine at home. Be aware that I will not be in the labs, I will be running the session remotely. You will also need to bring headphones to use, ideally with built-in microphone if you want to speak to me or other students.  
+We used replit.com last year to help us during the covid pandemic. replit.com can be used again this year but it is not required.
 
 You can sign up for a replit.com account for free at [https://replit.com/](https://replit.com/). I recommend you do so using your York St John email account address.  
 
