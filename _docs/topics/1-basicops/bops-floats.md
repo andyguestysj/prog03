@@ -42,7 +42,7 @@ This has a number of advantages.
   * = (3.0 * 1.0) * 10<sup>(8+ (-12))</sup>
   * = 3.0 * 10<sup>-4</sup>
 
-## Scientific Notation In Binary
+#### Scientific Notation In Binary
 
 First let's start by converting a decimal number to binary to see how this looks.  
 
@@ -54,7 +54,7 @@ We put this in scientific notation by
   
 So how is this actually stored? Well its fiddly and hard to get your head round. It goes like this..
 
-## Floating Point In Memory
+### Floating Point In Memory
 
 A typical 32 bit floating-point is stored in memory with three fields
 * sign
@@ -87,7 +87,7 @@ A typical 32 bit floating-point is stored in memory with three fields
       = 0.40625
 ```
 
-## Lets walk through converting a decimal number to a binary float.  
+#### Lets walk through converting a decimal number to a binary float.  
 Adapted from [https://dev.to/visheshpatel/how-floating-point-no-is-stored-memory-47od]
 
 Lets consider the float value 3.14(PI) as an example.
@@ -148,4 +148,10 @@ And so on . . .
 * Some values cannot represent exactly no matter how many bits you use. Just as values like 1/3 cannot represent in a finite number of decimal digits, values like 1/10 cannot represent in a finite number of bits.
 * Since values are approximate, calculations with them are also approximate, and rounding errors accumulate.
 
+The code below will output the way a float is stored in memory.  
+
  <iframe height="400px" width="100%" src="https://replit.com/@andyguest/cFloatRepr?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>  
+
+Don't worry about the details of this, you just need to understand that floats are stored in binary using scientific notation.  
+
+
