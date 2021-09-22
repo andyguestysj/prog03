@@ -30,6 +30,7 @@
   - bops-binary
   - bops-integers
   - bops-floats
+  - bops-summary
 
 
 - title: 2. Memory
