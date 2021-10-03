@@ -41,7 +41,7 @@ When you have VSC open click on the Extensions button in the icon bar down the l
 <centre>        
     <img src="{{ "/assets/img/vsc-ext.png" | relative_url }}" alt="VSC Button Bar" class="img-responsive">
 </centre>
-<BR></BR>
+<BR>
 <centre>        
     <img src="{{ "/assets/img/ext-btn.png" | relative_url }}" alt="VSC Button Bar - Extension Button" class="img-responsive">
 </centre>
@@ -62,5 +62,18 @@ If you've installed the GitLens extension correctly there should be an icon in t
     <img src="{{ "/assets/img/ext-git.png" | relative_url }}" alt="VSC Button Bar - Source Control" class="img-responsive">
 </centre>
 
+Click on the button to open the Source Control sidebar.  
 
+<centre>        
+    <img src="{{ "/assets/img/git-clone1.png" | relative_url }}" alt="VSC Button Bar - Source Control Bar" class="img-responsive">
+</centre>
 
+Click on the **Clone Repository** button and enter the URL https://git.ysjcs.net:8888/a.guest/c001hello.git in the window that pops up.  
+
+<centre>        
+    <img src="{{ "/assets/img/git-clone2.png" | relative_url }}" alt="VSC Clone Repo" class="img-responsive">
+</centre>
+<BR>
+<centre>        
+    <img src="{{ "/assets/img/git-clone3.png" | relative_url }}" alt="VSC Clone Repo" class="img-responsive">
+</centre>
