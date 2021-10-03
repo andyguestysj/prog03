@@ -40,6 +40,9 @@ When you have VSC open click on the Extensions button in the icon bar down the l
 
 <centre>        
     <img src="{{ "/assets/img/vsc-ext.png" | relative_url }}" alt="VSC Button Bar" class="img-responsive">
+</centre>
+<BR></BR>
+<centre>        
     <img src="{{ "/assets/img/ext-btn.png" | relative_url }}" alt="VSC Button Bar - Extension Button" class="img-responsive">
 </centre>
 
@@ -50,6 +53,14 @@ This will open up the Extensions side bar.
 </centre>
 
 Type the name of the extension you want to install in the text box at the top of the Extension Bar and click the blue install button for the extension.  
+
+#### GitLens
+
+If you've installed the GitLens extension correctly there should be an icon in the bar that looks like this.  
+
+<centre>        
+    <img src="{{ "/assets/img/ext-git.png" | relative_url }}" alt="VSC Button Bar - Source Control" class="img-responsive">
+</centre>
 
 
 
