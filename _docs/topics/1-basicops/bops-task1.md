@@ -1,5 +1,5 @@
 ---
-title: Basic Operations - Task Sheet
+title: Basic Operations - Task Sheet 1
 permalink: /docs/bops-task1/
 ---
 
@@ -70,10 +70,23 @@ Click on the button to open the Source Control sidebar.
 
 Click on the **Clone Repository** button and enter the URL https://git.ysjcs.net:8888/a.guest/c001hello.git in the window that pops up.  
 
+Create a new folder to clone the repository to and select it.  
+
 <centre>        
     <img src="{{ "/assets/img/git-clone2.png" | relative_url }}" alt="VSC Clone Repo" class="img-responsive">
 </centre>
-<BR>
+
+Click the **Open** button.
+
 <centre>        
     <img src="{{ "/assets/img/git-clone3.png" | relative_url }}" alt="VSC Clone Repo" class="img-responsive">
 </centre>
+
+You should now have a copy of the *Hello World* c program.  
+
+If the terminal window isn't open at the bottom of the VSC window, open it from the menu *View, Terminal*.  
+
+To run a C program we first have to compile it. Click on the terminal window and enter *"gcc main.c -o helloworld"*. We'll discuss how this works later, but for the time being it triggers the Gnu C Compiler (gcc) to compile the c file **main.c** to create an executable file named **helloworld**.  
+
+To execute the program enter *"./helloworld"*. The "./" tells the system the file is in the current folder.  
+
