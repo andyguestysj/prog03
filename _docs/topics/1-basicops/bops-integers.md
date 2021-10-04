@@ -103,6 +103,7 @@ Lets try simply using the left hand bit as a sign indicator. We end up with thes
 1 = negative
 
 **Too Simple Binary**
+
 |Binary|Decimal|Binary|Decimal|
 |---|---|---|---|
 |0000|0|1000|-0|
@@ -147,6 +148,7 @@ So simple binary addition doesn't work if we simply use the left hand bit to ind
 Let's try a different approach. Lets say for a negative number we take the positive number and invert every bit - swap 1s for 0s and 0s for 1s.  
 
 **1s Complement**
+
 |Binary|Decimal|Binary|Decimal|
 |---|---|---|---|
 |0000|0|1111|-0|
@@ -205,6 +207,7 @@ But we've still got two zeroes and that carry bit is a pain to deal with.
 Let's try 2s Complement. 2s Complement is 1s Complement + 1  
 
 **2s Complement**
+
 |Binary|Decimal|Binary|1s Comp|2s Comp : 1s Comp +1|
 |---|---|---|---|---|
 |0000|0|1111|-0|0000|
