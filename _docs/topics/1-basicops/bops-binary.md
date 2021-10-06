@@ -105,6 +105,7 @@ We've settled on using base-16 or hexadecimal notation as a compromise. It is no
 In the hexadecimal system each digit is a multiple of a power of 16. Each digit can be 0-9 or A,B,C,D,E or F (representing the numbers 10-15).  
 
 **Base-16**
+
 |Hexadecimal|Decimal|
 |---|---|
 |0|0|
