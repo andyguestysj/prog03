@@ -10,11 +10,14 @@ Recursion is a programming technique that involves a method calling itself. Recu
     <div class="col-md-6">
             <pre><code class="language-java">
 int exp(int i) 
-{
+{  
   if (i==1)
     return 1;
   else
-    return (i * exp(i-1));
+  {
+    int total = (i * exp(i-1));
+    return total;
+  }
 } 
 </code></pre>
 <ul>
@@ -45,7 +48,10 @@ int exp(int i)
   if (i==1)
     return 1;
   else
-    return (i * exp(i-1));
+  {
+    int total = (i * exp(i-1));
+    return total;
+  }
 } 
 </code></pre>
 <ul>
@@ -73,7 +79,10 @@ int exp(int i)
   if (i==1)
     return 1;
   else
-    return (i * exp(i-1));
+  {
+    int total = (i * exp(i-1));
+    return total;
+  }
 } 
 </code></pre>
 <ul>
@@ -101,7 +110,10 @@ int exp(int i)
   <b>if (i==1)</b>
     return 1;
   <b>else</b>
-    return (i * <b>exp(i-1)</b>);
+  {
+    total = (i * <b>exp(i-1)</b>);
+    return total;
+  }
 } 
 </code></pre>
 <ul>
