@@ -19,7 +19,7 @@ The frame for a method call stores the parameters passed in a method call and al
 </code></pre>
 <ul>
 <li>A frame is created on the stack</li>
-<li>The stack is filled from zero upwards</li>
+<li>The stack is filled from the top down (memory address)</li>
 <li>Within the main() frame all local variables are stored</li>
 </ul>
     </div>
