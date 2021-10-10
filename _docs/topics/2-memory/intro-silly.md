@@ -101,7 +101,7 @@ void silly()
 {
   float p=5.6f;
   int i=3;
-  i++;
+  i--;
 }
 </code></pre>
 <ul>
@@ -161,7 +161,7 @@ void silly(int locali)
 </ul>
     </div>
     <div class="col-md-6">
-<img src="/assets/img/stack-methods-7.png" alt="methods & frames">
+<img src="/assets/img/stack-methods-6.png" alt="methods & frames">
 
     </div>
 </div>
