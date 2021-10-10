@@ -96,6 +96,36 @@ int exp(int i)
     </div>
 </div>
 
+#### Local total created in exp(5) Frame
+<div class="row">
+    <div class="col-md-6">
+            <pre><code class="language-java">main()
+{
+  int myExp = exp(5);
+} 
+
+int exp(int i) 
+{
+  <b>if (i==1)</b>
+    return 1;
+  <b>else</b>
+  {
+    <b>total</b> = (i * exp(i-1));
+    return total;
+  }
+} 
+</code></pre>
+<ul>
+  <li>i is not equal to 1</li>  
+    <ul><li>So do the else, create <i>total<i> local variable</li></ul>  
+</ul>
+    </div>
+    <div class="col-md-6">
+<img src="/assets/img/recursion4.png" alt="recursion">
+
+    </div>
+</div>
+
 
 #### exp(4) called
 <div class="row">
@@ -117,10 +147,6 @@ int exp(int i)
 } 
 </code></pre>
 <ul>
-  <li>i is not equal to 1</li>
-    <ul><li>So do the else, have to evaluate exp(i-1) first</li></ul>
-  <li>So we call exp(4), which means we need to </li>
-     <ul>
       <li>create a new frame for another exp()</li>
       <li>create an i in the new exp() frame and set it to 4</li>
       </ul>
