@@ -36,16 +36,16 @@
 
 - title: 2. Memory
   docs:
-  #- memory
-  #- the-stack
-  #- intro-silly
-  #- stack-timelapse
-  #- recursion
-  #- prim-obj
-  #- the-heap
-  #- prim-obj2
-  #- intro-summary
-  #- intro-exercise
+  - memory
+  - the-stack
+  - intro-silly
+  - stack-timelapse
+  - recursion
+  - prim-obj
+  - the-heap
+  - prim-obj2
+  - intro-summary
+  - intro-exercise
 
 - title: 3. C Programming
   docs:
