@@ -3,7 +3,7 @@ title: Methods & Frames
 permalink: /docs/intro-silly/
 ---
 
-#### Data stored smallest part first
+#### The Stack Grows Downwards In Memory
 <div class="row">
     <div class="col-md-6">
             <pre><code class="language-java">public static void main(String[] args) 
@@ -13,9 +13,9 @@ permalink: /docs/intro-silly/
 } 
 </code></pre>
 <ul>
-<li>Frames are added to the stack at the lowest available address (on the stack)</li>
-<li>We illustrate this by showing the stack with the lowest address at the bottom</li>
-<li>The stack fills "upwards"</li>
+<li>Frames are added to the stack at the highest available address (on the stack)</li>
+<li>Here we illustrate this by showing the stack with the highest address at the top</li>
+<li>The stack fills "downwards"</li>
 </ul>
     </div>
     <div class="col-md-6">
@@ -23,6 +23,7 @@ permalink: /docs/intro-silly/
 
     </div>
 </div>
+
 
 
 #### Each method call adds a new frame to the stack
