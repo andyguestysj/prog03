@@ -35,7 +35,7 @@ Here we can clearly see that space has been set aside for the array by moving do
 
 There is a potential problem though. What happens if we try to store too much data in a variable? Java does its best to prevent us doing this but its not impossible. C is perfectly happy for us to store more items in an array than will fit in it. C simply puts the data in the spaces after the array. This *overrun* can and will crash programmes.  
 
-<img src="/assets/img/frame-detail-3.png" alt="methods & frames">
+<img src="/assets/img/frame-detail-4.png" alt="methods & frames">
 
 In the example above, the address the method is supposed to return a value to has been changed to address 42. Whatever is in that location will be over-written. The effects of this are, well, unpredictable but seldom good.  
 
