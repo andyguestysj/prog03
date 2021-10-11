@@ -3,6 +3,8 @@ title: Memory
 permalink: /docs/memory/
 ---
 
+Video of this week's lecture - [https://web.microsoftstream.com/video/e2f22e2a-ed00-47a0-9e7e-b4030bbe9586](https://web.microsoftstream.com/video/e2f22e2a-ed00-47a0-9e7e-b4030bbe9586) 
+
 ### Physical Memory  
 
 There are many ways of looking at memory. The images below describe the physical structure of computer memory and the protocols that involved in accessing it.  
