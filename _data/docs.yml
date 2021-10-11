@@ -44,7 +44,7 @@
   - prim-obj
   - the-heap
   - prim-obj2
-  #- intro-frame
+  - intro-frame
   - intro-summary
   #- intro-exercise
 
