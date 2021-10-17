@@ -58,8 +58,9 @@
   - c-06
   - c-07
   - c-08
-  - c-09
-  - c-10
+  - c-09  
+  - c-tasks
+#  - c-10
 
 - title: 4. C Memory
   docs:

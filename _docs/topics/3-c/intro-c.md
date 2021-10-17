@@ -98,6 +98,8 @@ The main function returns an integer. A zero indicates the programme exitted cor
 
 In replit.com you can simply press <i class="fa fa-play" aria-hidden="true">  
 
+If you have Visual Studio Code setup with CodeRunner you can right click on the c file and select run from the menu.  (When we get round to creating projects with multiple files you will need to right click on the c file with the main() function in it).
+
 Alternatively, the way to compile C code from the Linux terminal is  
 * Click on the terminal window
 * Enter ```gcc main.c```
@@ -110,13 +112,6 @@ If you wish you can specify the output executable filename with ```gcc main.c -o
 ```./a.out``` executes the file ```a.out```.  
 
 You can see which files exits in the folder with the `ls` command.  
-
-## Exercises
-
- <iframe title="Hello World in C" height="400px" width="100%" src="https://replit.com/@andyguest/HelloWorld?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>  
-
-1. In the replit.com box above, compile and execute the code by pressing <i class="fa fa-play" aria-hidden="true">
-2. Compile and execute the code using the command line as described above.  
 
 ### The *ls* Command
 
