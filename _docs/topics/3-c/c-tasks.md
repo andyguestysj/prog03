@@ -128,6 +128,8 @@ Total  £9.25
 
 ## Strings
 
+### Task 8
+
 1. Create a new file and call it `strings_demo.c`
 2. Demonstrate outputting the length of a string stored in a char array.
 3. Demonstrate copying one string to another
@@ -136,6 +138,8 @@ Total  £9.25
 6. Write code that reads in a string from the keyboard and outputs it to the screen.
    
 ## Bringing it together
+
+### Task 9
 
 1. Create a new file and call it `morse.c`
 2. Write an application that reads in a string of text from the keyboard and converts it to morse code, outputting one the morse for each character on a separate line. The test should consist of only lower case characters and spaces.
