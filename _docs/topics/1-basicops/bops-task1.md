@@ -26,6 +26,7 @@ VSC has many extensions available for it, making it usable as an editor for most
 We'll be using the extensions listed below
 * C/C++ v1.6.0
 * GitLens v11.6.0
+* Code Runner v0.11.6
   
 You might find the extensions below useful
 * Bracket Pair Colourizer v1.0.61
