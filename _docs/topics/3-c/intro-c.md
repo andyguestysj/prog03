@@ -3,6 +3,9 @@ title: The C Programming Language
 permalink: /docs/intro-c/
 ---
 
+
+
+Video of this week's lecture - [https://web.microsoftstream.com/video/0011fda8-4667-4e60-b89c-b5d0c7810477](https://web.microsoftstream.com/video/0011fda8-4667-4e60-b89c-b5d0c7810477)  
 ## Introduction
 
 C is a general purpose, procedural programming language. It was developed in the early 1970s by Dennis Ritchie at Bell Labs. 
