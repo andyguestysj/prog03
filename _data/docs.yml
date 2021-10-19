@@ -64,10 +64,10 @@
 
 - title: 4. C Memory
   docs:
-  #- c2-01
-  #- c2-02
-  #- c2-03
-  #- c2-task1
+  - c2-01
+  - c2-02
+  - c2-03
+  - c2-task1
   
 - title: 5. C Data Structures
   docs:
