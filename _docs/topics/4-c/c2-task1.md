@@ -9,7 +9,7 @@ Please follow the instructions on [https://ysjprog03.netlify.app/docs/vsc/](http
 
 1. Log in to replit.com
 2. Clone and open [https://github.com/andyguestysj/cMemoryAddresses.git](https://github.com/andyguestysj/cMemoryAddresses.git)
-3. Alternative if github doesn't work - [https://ysjprog03.netlify.app/docs/ctask1.c](https://ysjprog03.netlify.app/docs/ctask1.c)
+3. Alternative if github doesn't work - [ctask1.c](/assets/ctask1.c)
 4. Work your way through the tasks in the code - they are in the comments
 
 #### Exercise 2 
