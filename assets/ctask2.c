@@ -2,15 +2,16 @@
 
 int main () {
 
-  int var = 20;       
-  int *ip1 = &var;    
-  int *ip2;
+  int var = 20;   
+
+  // Exercise tasks
+  // 1 Create a pointer variable that stores the address of var
+  // 2 Print out the address of var using &var
+  // 3 Print out the value stored in your pointer, ensure it is the same as the address from &var
+  // 4 Print out the value of var
+  // 5 Print out the value your pointer is pointing to using the * redirector
+  // 6 After your printfs change the value stored in var using var =  and output the four printfs from 2-6 again. 
+  // 7 Now change the value using your pointer and the * redirection. Again output the four printfs after to see what has changed.
+
   return 0;
 }
-
-// Exercise Tasks
-// 1 Run the code. What is ip2 pointing at? Is this safe?
-// 2 ip2 might be pointing at an integer. Print out the value ip2 is pointing at as an integer
-// 3 Initialise ip2 to NULL. Comment out the line printing out ip2 as an integer. Run the code.
-// 4 Uncomment the line you just commented out and run the code. Why doe s the code crash?
-// 5 Add checks before trying to use ip1 or ip2, test to make sure they are not NULL before accessing them.
