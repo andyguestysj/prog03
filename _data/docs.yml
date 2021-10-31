@@ -9,8 +9,13 @@
 - title: Reference
   docs:
   - vsc
+  - vsc-cloning
   - replit
   - git
+  - gitlab-setup
+  - gitlab-save
+  - gitlab-vsc
+  - gitlab-terminal
   - clang
 
 - title: Assessment
@@ -68,14 +73,15 @@
   - c2-02
   - c2-03
   - c2-task1
-  #- c2-task1-solutions
+  - c2-task1-solutions
   
 - title: 5. C Data Structures
   docs:
-  #- cstruct-01
-  #- cstruct-02
-  #- cstruct-03
-  #- cstruct-04
+  - cstruct-01
+  - cstruct-02
+  - cstruct-03
+  - cstruct-04
+  - cstruct-04-tasks
   #- cstruct-05
   #- cstruct-06
   #- cstruct-07
