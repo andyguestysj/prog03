@@ -3,9 +3,11 @@ title: C Linked Lists
 permalink: /docs/cstruct-02/
 ---
 
-In C we can create very flexible ways of storing data using a combination of pointers and data structures to create different types of linked lists.  
+In C we can create very flexible ways of storing data using a combination of pointers and data structures.  
 
-A linked list is made up of data structures where a part of each structure is a link to the next entry in the list.  
+We call these flexible ways of storing data **linked lists**.  
+
+A linked list is made up of data structures, where a part of each structure is a link to the next entry in the list.  
 
 ![A simple linked list](/assets/img/topic4/linklist.jpg "The A simple linked list")
 
@@ -17,9 +19,12 @@ A linked list is made up of data structures where a part of each structure is a 
 
 The example above is the simplest version of a linked list. A *pointer* to the first *node* is stored in *head*. Each *node* in the list has a data member called *next* which stores a *pointer* to the next *node* in the list, except for the last *node* where it's *next* is set to `NULL`.  
 
+Think of a simple linked list like this as a chain. Each link in the train is connected to the link before and after it. Data is stored in each link and part of that data is the address of the next link. In our code we store the address of the first link in the chain and then let each link keep track of the address of the next link.  
+
 ## Node
-A node contains any amount of data and one or more pointers to other nodes.  
+A node contains any amount of data and a pointer to the next node in the list. (Other types of linked lists may have more pointers to other nodes).  
 The simplest possible node, storing a single integer value, would look something like this  
+
 ```c
 typedef struct node {
   int val;
@@ -27,10 +32,12 @@ typedef struct node {
   struct node *next;
 } node;
 ```
+
 In this case the only data is an integer named `val`. `next` is a pointer to another *node* in the form of another struct of the same type. 
 
-Using our `Book` type from the previous page.
+We can make a more useful linked list using our `Book` type from the previous page.
 
+```c
 typedef struct Book {
    char  title[50];
    char  author[50];
@@ -39,7 +46,19 @@ typedef struct Book {
 
    next  *Book;
 } Book;
+```
 
+Here each node stores the details about a book and a pointer to the next book in the list.  
+
+## Creating A New List
+
+To create a new list we simply create a pointer variable called head and set it to `NULL`. 
+
+```c
+node *head = NULL;
+```
+
+We now have an empty list.  
 
 ### Creating a new node
 
@@ -96,15 +115,7 @@ Book* newBookNode(char title[50], char author[50], char subject[100], int ID)
 }
 ```
 
-## Creating A New List
 
-To create a new list we simply create a pointer variable called head and set it to `NULL`. 
-
-```c
-node *head = NULL;
-```
-
-We now have an empty list. 
 
 ## Traversing the list
 

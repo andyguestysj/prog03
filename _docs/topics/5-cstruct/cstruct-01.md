@@ -176,8 +176,6 @@ If you do not use the `typedef` keyword you will need to use `struct` throughout
    int   book_id;
 };
 
-void printBook( struct Book book );
-
 int main(void) {
   
   struct Book book1;
@@ -186,18 +184,14 @@ int main(void) {
   strcpy(book1.subject, "Horror");
   book1.book_id = 19334;
 
-  printBook(book1);
+  printf("Title : %s\n", book1.title);
+  printf("Author : %s\n", book1.author);
+  printf("Subject : %s\n", book1.subject);
+  printf("Book ID : %d\n", book1.book_id);
+
 
 
   return 0;
-}
-
-void printBook( struct Book book )
-{
-  printf("Title : %s\n", book.title);
-  printf("Author : %s\n", book.author);
-  printf("Subject : %s\n", book.subject);
-  printf("Book ID : %d\n", book.book_id);
 }
 ```
 
@@ -214,14 +208,14 @@ typedef struct Book {
    char  author[50];
    char  subject[100];
    int   book_id;
-};
+} Book;
 
 int main(void) {
   
   Book book1;
   Book *book1_ptr;
 
-  *book1_ptr = &book1;
+  book1_ptr = &book1;
 }
 ```
 
@@ -236,32 +230,24 @@ typedef struct Book {
    char  author[50];
    char  subject[100];
    int   book_id;
-};
-
-void printBook( Book *book );
-
+} Book;
 
 int main(void) {
   
   Book book1;
   Book *book1_ptr;
-  *book1_ptr = &book1;
+  book1_ptr = &book1;
 
   strcpy(book1.title, "Lovecraft Country");
   strcpy(book1.author, "Matt Ruff");
   strcpy(book1.subject, "Horror");
   book1.book_id = 19334;
 
-  printBook(book1_ptr);
+  printf("Title : %s\n", book1_ptr->title);
+  printf("Author : %s\n", book1_ptr->author);
+  printf("Subject : %s\n", book1_ptr->subject);
+  printf("Book ID : %d\n", book1_ptr->book_id);
 
-}
-
-void printBook( struct Book book )
-{
-  printf("Title : %s\n", book.title);
-  printf("Author : %s\n", book.author);
-  printf("Subject : %s\n", book.subject);
-  printf("Book ID : %d\n", book.book_id);
 }
 ```
 
@@ -276,10 +262,7 @@ typedef struct Book {
    char  author[50];
    char  subject[100];
    int   book_id;
-};
-
-void printBook( Book *book );
-
+} Book;
 
 int main(void) {
   
@@ -290,16 +273,99 @@ int main(void) {
   strcpy(book1.subject, "Horror");
   book1.book_id = 19334;
 
-  printBook(&book);
+  printf("Title : %s\n", &book->title);
+  printf("Author : %s\n", &book->author);
+  printf("Subject : %s\n", &book->subject);
+  printf("Book ID : %d\n", &book->book_id);
 
 }
+```
 
-void printBook( struct Book book )
+So we have three ways to access the data - from the struct variable with `.`, from a pointer variable using `->`, and by getting a pointer from the variable and using `->`.  
+
+```c
+#include <stdio.h>
+#include <string.h>
+
+typedef struct Book {
+   char  title[50];
+   char  author[50];
+   char  subject[100];
+   int   book_id;
+} Book;
+
+int main(void) {
+  
+  Book book1;
+  Book *book1_ptr;
+  book1_ptr = &book1;
+
+  strcpy(book1.title, "Lovecraft Country");
+  strcpy(book1.author, "Matt Ruff");
+  strcpy(book1.subject, "Horror");
+  book1.book_id = 19334;
+
+  // using a struct variable and .
+  printf("Title : %s\n", book1.title);
+  printf("Author : %s\n", book1.author);
+  printf("Subject : %s\n", book1.subject);
+  printf("Book ID : %d\n", book1.book_id);
+
+  // using a pointer variable and ->
+  printf("Title : %s\n", book1_ptr->title);
+  printf("Author : %s\n", book1_ptr->author);
+  printf("Subject : %s\n", book1_ptr->subject);
+  printf("Book ID : %d\n", book1_ptr->book_id);
+
+  // getting a pointer from a struct variable and using ->
+  printf("Title : %s\n", &book1->title);
+  printf("Author : %s\n", &book1->author);
+  printf("Subject : %s\n", &book1->subject);
+  printf("Book ID : %d\n", &book1->book_id);
+}
+```
+
+## Passing pointers to structures to functions
+
+You can pass pointers to structures to function the same way you pass any other pointer.  
+
+```c
+#include <stdio.h>
+#include <string.h>
+
+  typedef struct Book {
+   char  title[50];
+   char  author[50];
+   char  subject[100];
+   int   book_id;
+} Book;
+
+void printBook( Book *book ); // Note the change here, parameter is a pointer to a struct
+
+int main(void) {
+  
+  Book book1;
+  strcpy(book1.title, "Lovecraft Country");
+  strcpy(book1.author, "Matt Ruff");
+  strcpy(book1.subject, "Horror");
+  book1.book_id = 19334;
+
+  printBook(&book1);
+
+  // or alternatively
+  Book *book_ptr = &book1;
+  printBook(book_ptr);
+  // but why bother creating the pointer variable if you aren't going to use it again?
+
+  return 0;
+}
+
+void printBook( Book *book )
 {
-  printf("Title : %s\n", book.title);
-  printf("Author : %s\n", book.author);
-  printf("Subject : %s\n", book.subject);
-  printf("Book ID : %d\n", book.book_id);
+  printf("Title : %s\n", book->title);
+  printf("Author : %s\n", book->author);
+  printf("Subject : %s\n", book->subject);
+  printf("Book ID : %d\n", book->book_id);
 }
 ```
 
@@ -477,6 +543,11 @@ Corner 2 (4.000000,4.000000)
 Corner 3 (1.000000,4.000000)
 ```
 
-[Square & Point code in replit.com](https://replit.com/@andyguest/cStructSquare)
+Now because we've passed a pointer to the square data structure we are using that pointer to access the memory address the original square struct is stored in and we are updateing that.  
+
+**Code**  
+* [Square & Point Repository if you want to clone it](https://github.com/andyguestysj/cStructSquare.git)  
+* [Square & Point code in replit.com](https://replit.com/@andyguest/cStructSquare)
+
 
 
