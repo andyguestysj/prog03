@@ -89,11 +89,11 @@
   #- cstruct-09
   #- cstruct-10
 
-- title: 6. C Stuff
-  docs:
+#- title: 6. C Stuff
+ # docs:
   #- cstuff-01
 
-- title: 7. Assembly Language
+- title: 6. Assembly Language
   docs:
   #- assembly-01
   #- assembly-02
