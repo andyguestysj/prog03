@@ -291,7 +291,7 @@ void insertNode(node* head, int value)
   temp = newNode(value);
 
   before->next = temp; // connect before to the new node
-  after = temp->next;  // connect the new node to the after node
+  temp->next = after;  // connect the new node to the after node
 }
 ```
 

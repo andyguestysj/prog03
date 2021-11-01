@@ -3,6 +3,8 @@ title: C Data Structures
 permalink: /docs/cstruct-01/
 ---
 
+[Lecture recording](https://web.microsoftstream.com/video/f0d1ff3e-dd73-42f4-b0fa-6a52d393c025)  
+
 C doesn't have classes and objects, it isn't an object oriented programming language. 
 
 C does allow you to define custom data *structures*. These structures can contain variables, arrays, even more data structures. You can think of a *structure* as like a class without any methods.  
