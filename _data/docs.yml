@@ -85,9 +85,11 @@
   - cstruct-05
   - cstruct-06
   - cstruct-07
-  - cstruct-08
-  - cstruct-09
-  - cstruct-10
+  - cstruct-07-tasks
+  #- cstruct-08
+  #- cstruct-09
+  #- cstruct-10
+  #- cstruct-11-tasks
 
 #- title: 6. C Stuff
  # docs:
