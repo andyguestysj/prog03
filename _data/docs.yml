@@ -82,12 +82,12 @@
   - cstruct-03
   - cstruct-04-tasks
   - cstruct-04
-  #- cstruct-05
-  #- cstruct-06
-  #- cstruct-07
-  #- cstruct-08
-  #- cstruct-09
-  #- cstruct-10
+  - cstruct-05
+  - cstruct-06
+  - cstruct-07
+  - cstruct-08
+  - cstruct-09
+  - cstruct-10
 
 #- title: 6. C Stuff
  # docs:
