@@ -75,11 +75,15 @@
   - c2-task1
   - c2-task1-solutions
   
-- title: 5. C Data Structures
+- title: 5. C Struct
   docs:
   - cstruct-01
-  - cstruct-02
   - cstruct-03
+  - cstruct-02-tasks
+
+- title: 6. C Data Structures
+  docs:
+  - cstruct-02
   - cstruct-04-tasks
   - cstruct-04
   - cstruct-05
@@ -93,11 +97,7 @@
   #- cstruct-10
   #- cstruct-11-tasks
 
-#- title: 6. C Stuff
- # docs:
-  #- cstuff-01
-
-- title: 6. Assembly Language
+- title: 7. Assembly Language
   docs:
   #- assembly-01
   #- assembly-02
@@ -116,4 +116,3 @@
   #- assembly-15
   #- assembly-16
 
-# hello
