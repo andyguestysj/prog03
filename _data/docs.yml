@@ -84,7 +84,9 @@
   - cstruct-04
   - cstruct-05
   - cstruct-06
+  - cstruct-06-node
   - cstruct-07
+  - cstruct-07-node
   - cstruct-07-tasks
   #- cstruct-08
   #- cstruct-09
@@ -113,3 +115,5 @@
   #- assembly-14
   #- assembly-15
   #- assembly-16
+
+# hello
