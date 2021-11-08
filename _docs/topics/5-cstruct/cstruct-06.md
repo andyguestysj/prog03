@@ -191,11 +191,13 @@ Inserting a node after another node is relatively simple. There are lots of poin
 
 ![Insert after node](/assets/img/topic4/DLL_add_middle1.png "Insert after node")  
 
+The code below assumes you have a function `Node* FindNode(Node *head, int search_value)` that returns a pointer to the first node in the list that has a `value` of `search_value`.
+
 <div class="row">
 <div class="col-md-6"  markdown="1">
 **Doubly Linked List**
 
-The code below assumes you have a function `Node* FindNode(Node *head, int search_value)` that returns a pointer to the first node in the list that has a `value` of `search_value`.
+
 
 ```c
 void InsertNodeAfter(Node* prev_node, int data)
