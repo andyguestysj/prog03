@@ -89,6 +89,8 @@ void AddNewNodeAtStart(Node** head_ref, Node *new_node)
 
 Inserting a node after another node is relatively simple. There are lots of pointers you have to be careful to link up correctly though.  
 
+The code below assumes you have a function `Node* FindNode(Node *head, int search_value)` that returns a pointer to the first node in the list that has a `value` of `search_value`.
+
 ```c
 void InsertNodeAfter(Node* prev_node, Node *new_node)
 {
