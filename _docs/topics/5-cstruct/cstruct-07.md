@@ -103,7 +103,7 @@ int pop(node** stack){
 
 // Display the element at the top of the stack
 // should always test for isEmpty()  first
-void peek(node* stack){
+int peek(node* stack){
     if(stack != NULL){
         return stack -> data;
     }

@@ -106,7 +106,7 @@ Func3(p_p_main_node);
 Node *head = ...;
 
 Func2(head);
-Func3(\&head);
+Func3( &head);
 ```
 
 ### With Variables, Including Structures As Variables
@@ -147,7 +147,7 @@ Some linked list functions use `Node **head_ref` as a parameter. `Node **head_re
 Node *head = ....;  
 
 *head -> [ first node ] -> [ second node ] -> .. -> [ last node ] -> NULL  
-**head_red -> *head -> [ first-node ] -> [ second node ] -> .. -> [ last node ] -> NULL  
+**head_ref -> *head -> [ first-node ] -> [ second node ] -> .. -> [ last node ] -> NULL  
 
 `head` is the address of the first node in the list  
 `&head` is the address of the variable storing the address of the first node in the list, i.e. it is the address of the variable head.  
@@ -180,7 +180,7 @@ void Func3(Node **aNode);
 
 Node *head = ...;
 
-Func3(\&head);
+Func3(&head);
 ```
 
 ## Within Functions
