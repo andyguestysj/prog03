@@ -23,9 +23,8 @@ typedef struct node {
 // function to create a new note & return a pointer to it
 node *NewNode(int data)
 {
-    Node *new_node = (Node *)malloc(sizeof(Node));
+    node *new_node = (node *)malloc(sizeof(node));
     new_node->data = data;
-    new_node->prev = NULL;
     new_node->next = NULL;
 
     return new_node;
@@ -86,6 +85,9 @@ int main()
 
     push(NewNode(1),&Stack);
     push(NewNode(2),&Stack);
+
+    printf("%d\n",pop(&Stack)->data);
+    printf("%d\n",pop(&Stack)->data);
 }
 
 
