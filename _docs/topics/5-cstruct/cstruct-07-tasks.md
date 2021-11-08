@@ -1,6 +1,6 @@
 ---
 title: Exercises 2
-permalink: /docs/cstruct-7-tasks/
+permalink: /docs/cstruct-07-tasks/
 ---
 
 * [Setting up VSC](https://ysjprog03.netlify.app/docs/vsc/)  
@@ -42,3 +42,4 @@ Read through [https://www.web4college.com/converters/infix-to-postfix-prefix.php
 Try to implement the Infix to Postfix Algorithm.
 
 [Infix to Postfix Algorithm](http://csis.pace.edu/~wolf/CS122/infix-postfix.htm)
+
