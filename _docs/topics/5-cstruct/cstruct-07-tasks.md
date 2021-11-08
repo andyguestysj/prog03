@@ -33,8 +33,8 @@ permalink: /docs/cstruct-07-tasks/
    alternative on replit [https://replit.com/@andyguest/cStack](https://replit.com/@andyguest/cStack)
 3. Convert the stack and code so that it stores `char`s instead of `int`s
 4. Write a function that takes a char array as a parameter and returns a char array with the original string backwards. Use a stack to do this.
-5. Write a function that takes a char array string as input. The input is made up of letters, spaces and asterisks. Parse the string character by character. If the character is a letter or a space push it to the stack. If it is an asterisk, pop it from the stack and print it. Test your function with this string "TH\*E L\*L\*AMA CO\*ME\*S FIRST"
-6. Modify your function from 8 so that after you've finished parsing the string you pop and print everything from the stack. Test it with "SH\*E\*KLL\*OFL\*O\*"
+5. Write a function that takes a char array string as input. The input is made up of letters, spaces and asterisks. Parse the string character by character. If the character is a letter or a space push it to the stack. If it is an asterisk, do not add the asterisk to th stack, instead pop the top of the stack  and print it. Test your function with this string "TH\*E L\*L\*AMA CO\*ME\*S FIRST"
+6. Make a new function that reverses a string (from 4) and then processes it based on the asterisks (as in 5). Then after you've finished parsing the string you pop and print everything from the stack. Test it with "SH\*E\*KLL\*OFL\*O\*"
 
 Extra Challenge
 
