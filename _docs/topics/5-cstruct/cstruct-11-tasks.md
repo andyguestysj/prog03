@@ -1,5 +1,5 @@
 ---
-title: Exercises 2
+title: Exercises 2 
 permalink: /docs/cstruct-11-tasks/
 ---
 
