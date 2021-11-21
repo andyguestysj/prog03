@@ -93,10 +93,10 @@
   - cstruct-07
   - cstruct-07-node
   - cstruct-07-tasks
-  #- cstruct-08
-  #- cstruct-09
-  #- cstruct-10
-  #- cstruct-11-tasks
+  - cstruct-08
+  - cstruct-09
+  - cstruct-10
+  - cstruct-11-tasks
 
 - title: 7. Assembly Language
   docs:
