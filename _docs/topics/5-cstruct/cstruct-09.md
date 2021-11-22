@@ -34,13 +34,13 @@ node* CreateNewNode(int data)
 
 A simple binary tree might look like this.  
 
->      tree
->      ----
->       1    <-- root
->     /   \
+>      tree  
+>      ----  
+>       1    <-- root  
+>     /   \     
 >    2     3  
 >   /   
->  4
+>  4  
 
 We could create it in code as follows.  
 
