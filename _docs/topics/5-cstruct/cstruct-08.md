@@ -3,6 +3,8 @@ title: Trees
 permalink: /docs/cstruct-08/
 ---
 
+[Lecture recording](https://web.microsoftstream.com/video/bbe1af5c-8fce-4245-8245-2a9798ccd908)
+
 The linked list based data structures we've looked at so far are useful. The can grow and shrink as required and data can be inserted anywhere very simply. They all have one major drawback though. If you want to access a specific node you have to start at the head of the list and work your way through the list until you find the node you are interested in. If the data you want is in the first node that's great and if its in the last node that's terrible. On average you'll have to visit half the nodes in the list to find what you are looking for. The longer the list, the worse this will be. Sure there has to be a better way of storing data?  
 
 There is a better way, a tree structure, specifically a binary tree structure.  

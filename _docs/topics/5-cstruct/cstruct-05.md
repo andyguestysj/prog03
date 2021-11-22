@@ -3,6 +3,8 @@ title: Pointers To Pointers
 permalink: /docs/cstruct-05/
 ---
 
+[Video](https://web.microsoftstream.com/video/1a498b52-fac8-458b-a36d-a0f30e6ddba8)
+
 *An interlude*
 
 Pointers to Pointers are confusing. Hopefully this page will help clarify them.  
