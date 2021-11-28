@@ -292,3 +292,5 @@ node* search(node **node, int val)
     }
  }
 ```
+
+[Application of stacks - infix to postfix](https://www.youtube.com/watch?v=XfX5jlzWQsg)  
