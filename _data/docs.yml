@@ -100,20 +100,20 @@
 
 - title: 7. Assembly Language
   docs:
-  #- assembly-01
-  #- assembly-02
-  #- assembly-03
-  #- assembly-04
-  #- assembly-05
-  #- assembly-06
-  #- assembly-07
-  #- assembly-08
-  #- assembly-09
-  #- assembly-10
-  #- assembly-11
-  #- assembly-12
-  #- assembly-13
-  #- assembly-14
-  #- assembly-15
-  #- assembly-16
+  - assembly-01
+  - assembly-02
+  - assembly-03
+  - assembly-04
+  - assembly-05
+  - assembly-06
+  - assembly-07
+  - assembly-08
+  - assembly-09
+  - assembly-10
+  - assembly-11
+  - assembly-12
+  - assembly-13
+  - assembly-14
+  - assembly-15
+  - assembly-16
 
