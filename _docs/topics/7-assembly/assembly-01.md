@@ -37,3 +37,10 @@ Assembly language is machine specific. The code has to be re-written to run on d
 
 Assembly is hard to read. It has only a basic set of operations that can be carried out so any complex operations have to be built up from first principles. So while assembly compiles down to a small size the code itself can be very long.  
 
+## Assembly Videos
+
+* [Hello World Tutorial](https://www.youtube.com/watch?v=HgEGAaYdABA)
+* [Intro to x86 Assembly](https://www.youtube.com/playlist?list=PLmxT2pVYo5LB5EzTPZGfFN0c2GDiSXgQe)
+* [Assembly Primer for Hackers](https://www.youtube.com/watch?v=K0g-twyhmQ4&list=PLue5IPmkmZ-P1pDbF3vSQtuNquX0SZHpB)
+* [Assembly Language Programming](https://www.youtube.com/watch?v=3ulCFewbj-I&list=PLJp-g8uP8qlZSQlu8TwrFqkBsie5QpYPX)
+* [x64 Assembly Tutorial Series](https://www.youtube.com/watch?v=rxsBghsrvpI&list=PLKK11Ligqitg9MOX3-0tFT1Rmh3uJp7kA)
