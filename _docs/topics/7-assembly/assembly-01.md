@@ -3,7 +3,7 @@ title: Assembly
 permalink: /docs/assembly-01/
 ---
 
-[Video Capture of this lecture](https://web.microsoftstream.com/video/bfdd085a-f41d-4c16-b5c9-14ddfb9645d7)  
+
 
 Each personal computer has a microprocessor that manages the computer's arithmetical, logical, and control activities.  
 
