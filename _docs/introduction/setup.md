@@ -30,7 +30,7 @@ MS Teams will be used for all face to face contact. Lab/tutorial session will be
 Our editor of choice this year is Visual Studio Code. VSC is installed on all our machines. It is a versatile, lightweight, easily extendable editor. It can be setup to work with multiple programming languages and to intergrate directly with the gitlab servers.
 ## replit.com
 
-We used replit.com last year to help us during the covid pandemic. replit.com can be used again this year but it is not required.
+We used replit.com to help us during the covid pandemic. replit.com can be used again this year but it is not required.
 
 You can sign up for a replit.com account for free at [https://replit.com/](https://replit.com/). I recommend you do so using your York St John email account address.  
 

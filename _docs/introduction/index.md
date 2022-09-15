@@ -4,6 +4,8 @@ permalink: /docs/home/
 redirect_from: /docs/index.html
 ---
 
+"Videos of this week's lecture" currently connects to last years lectures if you want to watch ahead, I'll update the links to the new recordings as we go through.  
+
 ## Programming 03
 
 The focus of this module is memory. By examing how memory is used by software we gain a deeper understanding of how code actually works. We can then use that understanding to write code that is faster and uses memory more efficiently.  

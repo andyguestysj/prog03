@@ -21,7 +21,7 @@
 - title: Assessment
   docs:
   - brief
-  - feedback
+  #- feedback
   #- resit-april
 
 - title: Topics
@@ -74,7 +74,7 @@
   - c2-02
   - c2-03
   - c2-task1
-  - c2-task1-solutions
+  #- c2-task1-solutions
   
 - title: 5. C Struct
   docs:
