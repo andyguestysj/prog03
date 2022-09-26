@@ -24,7 +24,7 @@ So the number 101.11 is
   
 Which is 4 + 0 + 1 + 0.5 + 0.25 = 5.75.
 
-No, the issue here is that we need to know where the decimal point is and if we fix its position then we end up with a limited range of possible numbers that can be stored - either a small difference between the lowest and highest number or a small precision (number of digits after the decimal point).  
+Now, the issue here is that we need to know where the decimal point is and if we fix its position then we end up with a limited range of possible numbers that can be stored - either a small difference between the lowest and highest number or a small precision (number of digits after the decimal point).  
 
 ### Scientific Notation
 
@@ -121,7 +121,7 @@ And so on . . .
 
 * So, `0.14 = 001000111...`
 * Add `3` + `0.14` -> 11.001000111... with exp  0 (3.14 * 2<sup>0</sup>)
-* Now you only have to add the bias of `127` to the exponent `1` and store it(i.e. `128` = `1000 0000`)  `0:1000 0000:1100 1000 111...`
+* Now you only have to add the bias of `127` to the exponent `1` and store it(i.e. `1 + 127` =  `128` = `1000 0000`)  `0:1000 0000:1100 1000 111...`
 * Forget the top `1` of the mantissa (which is always supposed to be `1`, except for some special values, so it is not stored), and you get:  `0:1000 0000:1001 0001 111...`
 * So our value of `3.14` would be represented as something like:
 
