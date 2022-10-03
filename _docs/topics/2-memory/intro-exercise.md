@@ -9,9 +9,11 @@ The [**Java Visualizer**](https://cscircles.cemc.uwaterloo.ca/java_visualize/#) 
 
 <div class="row">
     <div class="col-md-6">    
+    <ul>
 <li>The Java code is shown on the left, in the green section</li>
-<li>Here we illustrate this by showing the stack with the highest address at the top</li>
-<li>The stack fills "downwards"</li>
+<li>Next to it, in the red section, the stack is shown</li>
+<li>Next to that (in purple), the heap is shown</li>
+<li>At the bottom (in brown) the controls</li>
 </ul>
     </div>
     <div class="col-md-6">
