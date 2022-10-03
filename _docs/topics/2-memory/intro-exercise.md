@@ -115,16 +115,11 @@ public class Strings {
 ```java
 public class RecursiveClass {
    
-   
    public static void main(String[] args) {
       
       int iStart = 5;
       Exponential expObj = new Exponential(3);
       int iStartExp = expObj.exp(iStart);
-         
-      
-         
-      
    }
 }
 
