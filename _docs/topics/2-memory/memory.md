@@ -3,7 +3,7 @@ title: Memory
 permalink: /docs/memory/
 ---
 
-Video of this week's lecture - [https://web.microsoftstream.com/video/e2f22e2a-ed00-47a0-9e7e-b4030bbe9586](https://web.microsoftstream.com/video/e2f22e2a-ed00-47a0-9e7e-b4030bbe9586) 
+Video of this last year's lecture - [https://web.microsoftstream.com/video/e2f22e2a-ed00-47a0-9e7e-b4030bbe9586](https://web.microsoftstream.com/video/e2f22e2a-ed00-47a0-9e7e-b4030bbe9586) 
 
 ### Physical Memory  
 

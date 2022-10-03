@@ -52,7 +52,7 @@
   - prim-obj2
   - intro-frame
   - intro-summary
-  #- intro-exercise
+  - intro-exercise
 
 - title: 3. C Programming
   docs:

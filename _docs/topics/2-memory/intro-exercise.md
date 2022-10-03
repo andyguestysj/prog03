@@ -5,38 +5,19 @@ permalink: /docs/intro-exercise/
 
 ## Java Memory Exercise
 
-1. Log in to [replit.com](https://replit.com/)
-  * See the reference page on replit.com if you haven't signed up already.
+The [**Java Visualizer**](https://cscircles.cemc.uwaterloo.ca/java_visualize/#) allows you to run Java code line by line and see what is happening on the stack and heap. 
 
-2. Click on `+ New repl` to create a new repl. A repl is a project on the replit.com site.
+<div class="row">
+    <div class="col-md-6">    
+<li>The Java code is shown on the left, in the green section</li>
+<li>Here we illustrate this by showing the stack with the highest address at the top</li>
+<li>The stack fills "downwards"</li>
+</ul>
+    </div>
+    <div class="col-md-6">
+<img src="/assets/img/javavis1.png" alt="Java Visualizer">
 
-![alt text](/assets/img/mem-ex-1.png "replit.com New Repl button")  
+    </div>
+</div>
 
-3. In the pop up window select the `Import from GitHub` tab.
-
-![alt text](/assets/img/mem-ex-2.png "Import from GitHub")  
-
-4. Copy `github.com/andyguestysj/MemoryDuo` and paste it in the the repository URL
-
-![alt text](/assets/img/mem-ex-4.png "Paste Repository Information")  
-
-5. Click `Import from GitHub`
-
-![alt text](/assets/img/mem-ex-5.png "Import from GitHub")  
-
-6. After a few moments you should see replit.com change to a code window.
-
-7. Select `Main.java` from the Files list on the left
-
-![alt text](/assets/img/mem-ex-6.png "Select main.java")  
-
-8. Press <i class="fa fa-play" aria-hidden="true">
-
-![alt text](/assets/img/mem-ex-7.png "Compile & Execute")  
-
-9. View the output in the terminal window.
-
-![alt text](/assets/img/mem-ex-8.png "Output in terminal")  
-
-10. Compare what happens to testInt and testObject
-11. Do you understand why they behave differently?
+1. 
