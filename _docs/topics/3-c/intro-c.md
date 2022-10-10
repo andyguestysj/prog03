@@ -25,13 +25,24 @@ We'll start the traditional way with *Hello World*.
 
 Here's *Hello World* in Java.
 
-##### Hello World Java
- <iframe title="Hello World in Java" height="400px" width="100%" src="https://replit.com/@andyguest/JavaHelloWorld?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>  
+```java
+class Main {
+  public static void main(String[] args) {
+    System.out.println("Hello world!");
+  }
+}
+```
 
 The C version is a little different but should look very familiar.  
 
-##### Hello World C
- <iframe title="Hello World in C" height="400px" width="100%" src="https://replit.com/@andyguest/HelloWorld?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>  
+```c
+#include <stdio.h>
+
+int main(void) {
+  printf("Hello World\n");
+  return 0;
+}
+```
 
 Breaking the code down.  
 

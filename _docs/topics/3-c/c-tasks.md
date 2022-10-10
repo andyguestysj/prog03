@@ -5,6 +5,14 @@ permalink: /docs/c-tasks/
 
 ## Introduction
 
+#### Exercise 1
+1. Log in to replit.com
+2. Create a new repl. Make it a C program and call it `printf_demo`
+3. Try adding the variations on outputting `hello world` shown above.
+
+Do they all produce the same results?
+
+
 ### Task 1
 
 1. Create a new folder called "CTasks1"
