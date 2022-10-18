@@ -5,14 +5,6 @@ permalink: /docs/c-tasks/
 
 ## Introduction
 
-#### Exercise 1
-1. Log in to replit.com
-2. Create a new repl. Make it a C program and call it `printf_demo`
-3. Try adding the variations on outputting `hello world` shown above.
-
-Do they all produce the same results?
-
-
 ### Task 1
 
 1. Create a new folder called "CTasks1"
@@ -20,7 +12,7 @@ Do they all produce the same results?
   *  In the terminal 
      *  you can use `ls` to see the contents of the current folder
      *  you can use `cd` to **c**hange **d**irectory - `cd foldername`
-     *  you can use `md` to **m**ake a **d**irectory - `md CTasks1`
+     *  you can use `mkdir` to **m**ake a **d**irectory - `mkdir CTasks1`
 2. Open *Visual Studio Code*
   * You can do this from the Linux menu
     * Choose `Open Folder` from the menu and select your new folder
