@@ -10,7 +10,7 @@ permalink: /docs/git/
 * Online Source Code Management  
 * Version Control  
 * Hosted on university servers  
-  * [https://git.yorkdc.net:8888/](https://git.yorkdc.net:8888/)  
+  * [https://git.ysjcs.net:8888/users/sign_in](https://git.ysjcs.net:8888/users/sign_in)  
   * User name and password same as computing network account  
   * Password reset [http://ysjcs.net/passwords/](http://ysjcs.net/passwords/)  
 * GitHub Guides  
