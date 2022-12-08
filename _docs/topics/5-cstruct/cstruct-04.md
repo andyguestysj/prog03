@@ -5,7 +5,7 @@ permalink: /docs/cstruct-04/
 
 ## External Pages
 
-These pages cover much the same ground as we've covered here but its a tricky topic and sometimes reading something telling the same thing a different way helps us understand it better.  
+These pages cover much the same ground as we've covered  here but its a tricky topic and sometimes reading something telling the same thing a different way helps us understand it better.  
 
 * [OverIQ](https://overiq.com/c-programming-101/pointer-to-a-structure-in-c/)  
 * [Study Tonight](https://www.studytonight.com/c/pointers-to-structure-in-c.php)  
